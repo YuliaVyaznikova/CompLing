@@ -1,0 +1,19 @@
+Started at: 2026-02-16T19:14:46
+Connection URI: bolt://127.0.0.1:7687
+User: neo4j
+Database: None
+Created node 1: {'uri': 'http://ontology.com/aYA40eFILV3x', 'description': 'test', 'label': 'Entity'}
+Created node 2: {'uri': 'http://ontology.com/xEM2OmlMsFLc', 'description': 'test2', 'label': 'Entity'}
+Fetched node: {'uri': 'http://ontology.com/aYA40eFILV3x', 'description': 'test', 'label': 'Entity'}
+Updated node: {'uri': 'http://ontology.com/aYA40eFILV3x', 'description': 'updated', 'label': 'Entity'}
+Nodes by label: [{'uri': 'http://ontology.com/aYA40eFILV3x', 'description': 'updated', 'label': 'Entity'}, {'uri': 'http://ontology.com/xEM2OmlMsFLc', 'description': 'test2', 'label': 'Entity'}]
+All nodes: [{'uri': 'http://ontology.com/aYA40eFILV3x', 'description': 'updated', 'label': 'Entity'}, {'uri': 'http://ontology.com/xEM2OmlMsFLc', 'description': 'test2', 'label': 'Entity'}]
+All arcs: []
+Created arc: {'id': '5:3b48b00b-d4f7-40e9-a67b-1183a5e06934:1152921504606846978', 'uri': 'RELATED', 'node_uri_from': 'http://ontology.com/aYA40eFILV3x', 'node_uri_to': 'http://ontology.com/xEM2OmlMsFLc'}
+All nodes after arc: [{'uri': 'http://ontology.com/aYA40eFILV3x', 'description': 'updated', 'label': 'Entity'}, {'uri': 'http://ontology.com/xEM2OmlMsFLc', 'description': 'test2', 'label': 'Entity'}]
+All arcs after arc: [{'id': '5:3b48b00b-d4f7-40e9-a67b-1183a5e06934:1152921504606846978', 'uri': 'RELATED', 'node_uri_from': 'http://ontology.com/aYA40eFILV3x', 'node_uri_to': 'http://ontology.com/xEM2OmlMsFLc'}]
+Deleted arc: True
+Deleted node 1: True
+Deleted node 2: True
+Finished at: 2026-02-16T19:14:46
+Log saved to: C:\IMPORTANT\NSU\3\nlp\1\usage_log.txt
