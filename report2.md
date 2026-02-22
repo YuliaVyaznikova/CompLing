@@ -5,9 +5,9 @@
 Онтология строится по следующей методологии:
 - Классы имеют метки `"Class"` и `uri` класса, а также свойства `uri`, `title`, `description`
 - Объекты имеют метки `"Object"`, `uri` класса и `uri` объекта, а также свойства `uri`, `title`, `description`
-- DatatypeProperty — узлы с меткой `"DatatypeProperty"`, свойства `uri`, `title` (атрибуты класса)
-- ObjectProperty — узлы с меткой `"ObjectProperty"`, свойства `uri`, `title` (связи между объектами разных классов)
-- Связи: `SUBCLASSOF` (наследование классов), `INSTANCEOF` (объект—класс), `DOMAIN` (свойство—класс), `RANGE` (ObjectProperty—целевой класс)
+- DatatypeProperty - узлы с меткой `"DatatypeProperty"`, свойства `uri`, `title` (атрибуты класса)
+- ObjectProperty - узлы с меткой `"ObjectProperty"`, свойства `uri`, `title` (связи между объектами разных классов)
+- Связи: `SUBCLASSOF` (наследование классов), `INSTANCEOF` (объект-класс), `DOMAIN` (свойство-класс), `RANGE` (ObjectProperty-целевой класс)
 
 Ниже для каждого метода приведены код метода, пример использования, краткое описание.
 
