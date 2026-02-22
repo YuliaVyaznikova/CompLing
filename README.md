@@ -6,25 +6,29 @@ Python-репозиторий для работы с графовой базой
 
 ```
 CompLing/
-├── func.py               # класс Neo4jRepository
-├── usage.py              # примеры использования всех методов
-├── usage_log.txt         # как выглядит пример использования
-├── requirements.txt      # зависимости (neo4j>=5.0.0)
-├── report1.md            # отчёт по заданию №1 (базовые операции)
-├── report2.md            # отчёт по заданию №2 (онтология)
-└── README.md             # навигация по репозиторию
+├── README.md                 # навигация по репозиторию и описание проекта
+├── realization/              # реализация
+│   ├── func.py               # класс Neo4jRepository
+│   ├── usage.py              # пример использования всех методов
+│   ├── usage_log.txt         # как выглядит пример использования
+│   ├── requirements.txt      # зависимости
+│   └── .gitignore
+└── reports/                  # описание функционала
+    ├── report1.md            # базовые операции
+    └── report2.md            # онтология
 ```
 
 ## Установка
 
 ```bash
+cd realization
 pip install -r requirements.txt
 ```
 
 ## Подключение
 
 ```python
-from neo4j_repository import Neo4jConfig, Neo4jRepository
+from func import Neo4jConfig, Neo4jRepository
 
 config = Neo4jConfig(
     uri="bolt://127.0.0.1:7687",
@@ -55,5 +59,5 @@ with Neo4jRepository(config) as repo:
 
 ## Документация
 
-- [report1.md](report1.md) - описание методов задания №1
-- [report2.md](report2.md) - описание методов задания №2
+- [reports/report1.md](reports/report1.md) — описание методов задания №1
+- [reports/report2.md](reports/report2.md) — описание методов задания №2
