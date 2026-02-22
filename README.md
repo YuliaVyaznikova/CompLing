@@ -44,16 +44,16 @@ with Neo4jRepository(config) as repo:
 - `create_node`, `get_node_by_uri`, `update_node`, `delete_node_by_uri`
 - `create_arc`, `delete_arc_by_id`
 - `get_all_nodes_and_arcs`, `get_nodes_by_labels`
-- `run_custom_query` — произвольные Cypher-запросы
+- `run_custom_query` - произвольные Cypher-запросы
 
 ### Задание №2: Работа с онтологией
 
-- **Классы:** `create_class`, `get_class`, `update_class`, `delete_class`, `get_class_parents`, `get_class_children`
-- **Объекты:** `create_object`, `get_object`, `update_object`, `delete_object`, `get_class_objects`
-- **Атрибуты:** `add_class_attribute`, `delete_class_attribute`, `add_class_object_attribute`, `delete_class_object_attribute`
-- **Сигнатура:** `collect_signature` — сбор всех свойств класса и его родителей
+- Классы: `create_class`, `get_class`, `update_class`, `delete_class`, `get_class_parents`, `get_class_children`
+- Объекты: `create_object`, `get_object`, `update_object`, `delete_object`, `get_class_objects`
+- Атрибуты: `add_class_attribute`, `delete_class_attribute`, `add_class_object_attribute`, `delete_class_object_attribute`
+- Сигнатура: `collect_signature` - сбор всех свойств класса и его родителей
 
 ## Документация
 
-- [report1.md](report1.md) — описание методов задания №1
-- [report2.md](report2.md) — описание методов задания №2
+- [report1.md](report1.md) - описание методов задания №1
+- [report2.md](report2.md) - описание методов задания №2
