@@ -8,6 +8,7 @@ from neo4j import GraphDatabase
 
 class TNode(TypedDict):
     uri: str
+    title: str
     description: str
     label: str
 
@@ -81,6 +82,7 @@ class Neo4jRepository:
         props = dict(getattr(node, "_properties", {}))
         return {
             "uri": str(props.get("uri", "")),
+            "title": str(props.get("title", "")),
             "description": str(props.get("description", "")),
             "label": str(labels[0]) if labels else "",
         }
@@ -122,35 +124,24 @@ class Neo4jRepository:
             return [dict(r) for r in result]
 
     def get_all_nodes_and_arcs(self) -> Tuple[List[TNode], List[TArc]]:
-        cypher_nodes = "MATCH (n) RETURN n AS node"
-        cypher_arcs = "MATCH (a)-[r]->(b) RETURN elementId(r) AS id, r AS rel, a.uri AS node_uri_from, b.uri AS node_uri_to"
+        cypher = "MATCH (n) RETURN n AS node UNION ALL MATCH ()-[r]-() RETURN r AS node"
 
         nodes_by_uri: Dict[str, TNode] = {}
         arcs_by_id: Dict[str, TArc] = {}
 
         with self._driver.session(**self._session_kwargs()) as session:
-            for record in session.run(cypher_nodes):
-                n = record.get("node")
-                if n is None:
+            for record in session.run(cypher):
+                item = record.get("node")
+                if item is None:
                     continue
-                node_dict = self.collect_node(n)
-                if node_dict["uri"]:
-                    nodes_by_uri[node_dict["uri"]] = node_dict
-
-            for record in session.run(cypher_arcs):
-                rel = record.get("rel")
-                if rel is None:
-                    continue
-                arc_dict = self.collect_arc(
-                    {
-                        "id": record.get("id", ""),
-                        "rel": rel,
-                        "node_uri_from": record.get("node_uri_from", ""),
-                        "node_uri_to": record.get("node_uri_to", ""),
-                    }
-                )
-                if arc_dict["id"]:
-                    arcs_by_id[arc_dict["id"]] = arc_dict
+                if hasattr(item, "labels"):
+                    node_dict = self.collect_node(item)
+                    if node_dict["uri"]:
+                        nodes_by_uri[node_dict["uri"]] = node_dict
+                else:
+                    arc_dict = self.collect_arc(item)
+                    if arc_dict["id"]:
+                        arcs_by_id[arc_dict["id"]] = arc_dict
 
         return list(nodes_by_uri.values()), list(arcs_by_id.values())
 
@@ -190,6 +181,9 @@ class Neo4jRepository:
 
         if "description" in params:
             props["description"] = params.get("description")
+
+        if "title" in params:
+            props["title"] = params.get("title")
 
         for k, v in params.items():
             if k in {"label", "uri"}:
@@ -263,3 +257,177 @@ class Neo4jRepository:
             if not record or record.get("node") is None:
                 return None
             return self.collect_node(record.get("node"))
+
+    def get_ontology(self) -> Tuple[List[TNode], List[TArc]]:
+        return self.get_all_nodes_and_arcs()
+
+    def get_ontology_parent_classes(self) -> List[TNode]:
+        cypher = "MATCH (c:`Class`) WHERE NOT (c)-[:SUBCLASSOF]->() RETURN c AS node"
+        with self._driver.session(**self._session_kwargs()) as session:
+            return [self.collect_node(record.get("node")) for record in session.run(cypher)]
+
+    def get_class(self, uri: str) -> Optional[TNode]:
+        node = self.get_node_by_uri(uri)
+        if node and node["label"] == "Class":
+            return node
+        return None
+
+    def get_class_parents(self, uri: str) -> List[TNode]:
+        cypher = "MATCH (c {uri: $uri})-[:SUBCLASSOF]->(p:`Class`) RETURN p AS node"
+        with self._driver.session(**self._session_kwargs()) as session:
+            return [self.collect_node(record.get("node")) for record in session.run(cypher, {"uri": uri})]
+
+    def get_class_children(self, uri: str) -> List[TNode]:
+        cypher = "MATCH (child:`Class`)-[:SUBCLASSOF]->(c {uri: $uri}) RETURN child AS node"
+        with self._driver.session(**self._session_kwargs()) as session:
+            return [self.collect_node(record.get("node")) for record in session.run(cypher, {"uri": uri})]
+
+    def get_class_objects(self, class_uri: str) -> List[TNode]:
+        cypher = "MATCH (o:`Object`)-[:INSTANCEOF]->(c {uri: $class_uri}) RETURN o AS node"
+        with self._driver.session(**self._session_kwargs()) as session:
+            return [self.collect_node(record.get("node")) for record in session.run(cypher, {"class_uri": class_uri})]
+
+    def update_class(self, uri: str, title: Optional[str] = None, description: Optional[str] = None) -> Optional[TNode]:
+        params = {}
+        if title is not None:
+            params["title"] = title
+        if description is not None:
+            params["description"] = description
+        return self.update_node(uri, params)
+
+    def create_class(self, title: str, description: str = "", parent_uri: Optional[str] = None) -> TNode:
+        uri = self.generate_random_string()
+        params = {"label": "Class", "uri": uri, "title": title, "description": description}
+        node = self.create_node(params)
+        if parent_uri:
+            self.create_arc(node["uri"], parent_uri, "SUBCLASSOF")
+        return node
+
+    def delete_class(self, uri: str) -> bool:
+        with self._driver.session(**self._session_kwargs()) as session:
+            cypher_desc = "MATCH (desc:`Class`)-[:SUBCLASSOF*0..]->(c {uri: $uri}) RETURN distinct desc.uri AS uri"
+            desc_uris = [r["uri"] for r in session.run(cypher_desc, {"uri": uri})]
+            if not desc_uris:
+                return False
+            cypher_objs = "MATCH (o:`Object`)-[:INSTANCEOF]->(c:`Class` WHERE c.uri IN $class_uris) RETURN o.uri AS uri"
+            obj_uris = [r["uri"] for r in session.run(cypher_objs, {"class_uris": desc_uris})]
+        for o_uri in obj_uris:
+            self.delete_node_by_uri(o_uri)
+        for d_uri in desc_uris:
+            self.delete_node_by_uri(d_uri)
+        return True
+
+    def add_class_attribute(self, class_uri: str, title: str) -> TNode:
+        if not self.get_node_by_uri(class_uri):
+            raise ValueError("Class not found")
+        prop_uri = self.generate_random_string()
+        prop = self.create_node({"label": "DatatypeProperty", "uri": prop_uri, "title": title})
+        self.create_arc(prop["uri"], class_uri, "DOMAIN")
+        return prop
+
+    def delete_class_attribute(self, prop_uri: str) -> bool:
+        node = self.get_node_by_uri(prop_uri)
+        if not node or node["label"] != "DatatypeProperty":
+            return False
+        return self.delete_node_by_uri(prop_uri)
+
+    def add_class_object_attribute(self, class_uri: str, attr_name: str, range_class_uri: str) -> TNode:
+        if not self.get_node_by_uri(class_uri) or not self.get_node_by_uri(range_class_uri):
+            raise ValueError("Class not found")
+        prop_uri = self.generate_random_string()
+        prop = self.create_node({"label": "ObjectProperty", "uri": prop_uri, "title": attr_name})
+        self.create_arc(prop["uri"], class_uri, "DOMAIN")
+        self.create_arc(prop["uri"], range_class_uri, "RANGE")
+        return prop
+
+    def delete_class_object_attribute(self, object_property_uri: str) -> bool:
+        node = self.get_node_by_uri(object_property_uri)
+        if not node or node["label"] != "ObjectProperty":
+            return False
+        return self.delete_node_by_uri(object_property_uri)
+
+    def add_class_parent(self, parent_uri: str, target_uri: str):
+        if not self.get_node_by_uri(parent_uri) or not self.get_node_by_uri(target_uri):
+            raise ValueError("Class not found")
+        self.create_arc(target_uri, parent_uri, "SUBCLASSOF")
+
+    def get_object(self, uri: str) -> Optional[TNode]:
+        node = self.get_node_by_uri(uri)
+        if node and node["label"] == "Object":
+            return node
+        return None
+
+    def delete_object(self, uri: str) -> bool:
+        if not self.get_object(uri):
+            return False
+        return self.delete_node_by_uri(uri)
+
+    def create_object(self, class_uri: str, title: str, description: str = "", properties: Dict[str, Any] = {}) -> TNode:
+        with self._driver.session(**self._session_kwargs()) as session:
+            if not self.get_class(class_uri):
+                raise ValueError("Class not found")
+            signature = self.collect_signature(class_uri)
+            param_uris = {p["uri"] for p in signature["params"]}
+            for k in properties:
+                if k not in param_uris:
+                    raise ValueError(f"Unknown property {k}")
+            uri = self.generate_random_string()
+            params = {"label": "Object", "title": title, "description": description, "uri": uri}
+            params.update(properties)
+            node = self.create_node(params)
+            self.create_arc(uri, class_uri, "INSTANCEOF")
+            return node
+
+    def update_object(self, uri: str, title: Optional[str] = None, description: Optional[str] = None, properties: Dict[str, Any] = {}) -> Optional[TNode]:
+        obj = self.get_object(uri)
+        if not obj:
+            return None
+        with self._driver.session(**self._session_kwargs()) as session:
+            cypher_class = "MATCH (o {uri: $uri})-[:INSTANCEOF]->(c) RETURN c.uri AS class_uri"
+            record = session.run(cypher_class, {"uri": uri}).single()
+            class_uri = record["class_uri"] if record else None
+            if not class_uri:
+                raise RuntimeError("No class for object")
+            signature = self.collect_signature(class_uri)
+            param_uris = {p["uri"] for p in signature["params"]}
+            for k in properties:
+                if k not in param_uris:
+                    raise ValueError(f"Unknown property {k}")
+            params = {}
+            if title is not None:
+                params["title"] = title
+            if description is not None:
+                params["description"] = description
+            params.update(properties)
+            return self.update_node(uri, params)
+
+    def collect_signature(self, class_uri: str) -> Dict[str, List[Dict[str, Any]]]:
+        if not self.get_class(class_uri):
+            raise ValueError("Class not found")
+        query_datatype = """
+        MATCH (n {uri: $uri})-[:SUBCLASSOF*0..]->(s:`Class`)<-[:DOMAIN]-(d:`DatatypeProperty`)
+        RETURN DISTINCT d
+        """
+        query_object_forward = """
+        MATCH (n {uri: $uri})-[:SUBCLASSOF*0..]->(s:`Class`)<-[:DOMAIN]-(d:`ObjectProperty`)-[:RANGE]->(r:`Class`)
+        RETURN DISTINCT d, r
+        """
+        params_list: List[Dict[str, Any]] = []
+        obj_params_list: List[Dict[str, Any]] = []
+        with self._driver.session(**self._session_kwargs()) as session:
+            for record in session.run(query_datatype, {"uri": class_uri}):
+                d = record["d"]
+                d_props = dict(d)
+                params_list.append({"title": d_props.get("title", ""), "uri": d_props.get("uri", "")})
+            for record in session.run(query_object_forward, {"uri": class_uri}):
+                d = record["d"]
+                r = record["r"]
+                d_props = dict(d)
+                r_props = dict(r)
+                obj_params_list.append({
+                    "title": d_props.get("title", ""),
+                    "uri": d_props.get("uri", ""),
+                    "target_class_uri": r_props.get("uri", ""),
+                    "relation_direction": 1
+                })
+        return {"params": params_list, "obj_params": obj_params_list}
