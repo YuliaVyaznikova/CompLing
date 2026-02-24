@@ -363,47 +363,86 @@ with Neo4jRepository(config) as repo:
 ## Метод `create_object`
 
 ```python
-def create_object(self, class_uri: str, title: str, description: str = "", properties: Dict[str, Any] = {}) -> TNode:
-    with self._driver.session(**self._session_kwargs()) as session:
-        if not self.get_class(class_uri):
-            raise ValueError("Class not found")
-        signature = self.collect_signature(class_uri)
-        param_uris = {p["uri"] for p in signature["params"]}
-        for k in properties:
-            if k not in param_uris:
-                raise ValueError(f"Unknown property {k}")
-        uri = self.generate_random_string()
-        params = {"label": "Object", "title": title, "description": description, "uri": uri}
-        params.update(properties)
-        node = self.create_node(params)
-        self.create_arc(uri, class_uri, "INSTANCEOF")
-        return node
+def create_object(self, class_uri: str, title: str, description: str = "", properties: Dict[str, Any] = {}, object_properties: List[Dict[str, Any]] = []) -> TNode:
+    if not self.get_class(class_uri):
+        raise ValueError("Class not found")
+    signature = self.collect_signature(class_uri)
+    param_uris = {p["uri"] for p in signature["params"]}
+    for k in properties:
+        if k not in param_uris:
+            raise ValueError(f"Unknown property {k}")
+
+    obj_param_uris = {p["uri"] for p in signature["obj_params"]}
+    for op in object_properties:
+        relation_uri = op.get("relation_uri", "")
+        if relation_uri not in obj_param_uris:
+            raise ValueError(f"Unknown object property {relation_uri}")
+        if not self.get_node_by_uri(op.get("obj_uri", "")):
+            raise ValueError(f"Target object not found: {op.get('obj_uri', '')}")
+
+    uri = self.generate_random_string()
+    params = {"label": "Object", "title": title, "description": description, "uri": uri}
+    params.update(properties)
+    node = self.create_node(params)
+    self.create_arc(uri, class_uri, "INSTANCEOF")
+
+    for op in object_properties:
+        obj_uri = op.get("obj_uri", "")
+        relation_uri = op.get("relation_uri", "")
+        direction = op.get("direction", 1)
+        rel_node = self.get_node_by_uri(relation_uri)
+        rel_type = rel_node["title"] if rel_node else "RELATED"
+        if direction == 1:
+            self.create_arc(uri, obj_uri, rel_type)
+        else:
+            self.create_arc(obj_uri, uri, rel_type)
+
+    return node
 ```
 
 ### Example usage
 
 ```python
 with Neo4jRepository(config) as repo:
-    # Сначала добавляем атрибуты классу
-    attr_name = repo.add_class_attribute(class_uri, "name")
-    attr_age = repo.add_class_attribute(class_uri, "age")
-    
-    # Создаём объект с заполненными атрибутами
+    person_class = repo.create_class("Person", "Человек")
+    city_class = repo.create_class("City", "Город")
+
+    attr_name = repo.add_class_attribute(person_class["uri"], "name")
+    lives_in = repo.add_class_object_attribute(person_class["uri"], "lives_in", city_class["uri"])
+
+    moscow = repo.create_object(city_class["uri"], "Москва", "Столица России")
+
     obj = repo.create_object(
-        class_uri,
-        title="Иван Иванов",
-        description="Студент",
-        properties={attr_name["uri"]: "Иван", attr_age["uri"]: 20}
+        person_class["uri"],
+        title="Маша",
+        description="Тестовый объект",
+        properties={attr_name["uri"]: "Мария"},
+        object_properties=[
+            {
+                "destination_class": city_class["uri"],
+                "obj_uri": moscow["uri"],
+                "direction": 1,
+                "relation_uri": lives_in["uri"]
+            }
+        ]
     )
     print("Создан объект:", obj)
 ```
 
-Создаёт объект указанного класса. Свойства объекта (`properties`) должны соответствовать `DatatypeProperty` данного класса (проверяется через `collect_signature`). Автоматически создаётся связь `INSTANCEOF` к классу.
+Создаёт объект указанного класса. Параметры:
+- `properties` - словарь `{datatype_property_uri: value}` для атрибутов объекта
+- `object_properties` - список связей с другими объектами, каждый элемент содержит:
+  - `destination_class` - URI целевого класса
+  - `obj_uri` - URI целевого объекта
+  - `direction` - направление связи: `1` (объект -> цель) или `-1` (цель -> объект)
+  - `relation_uri` - URI ObjectProperty, определяющей тип связи
+
+Автоматически создаётся связь `INSTANCEOF` к классу и связи к другим объектам.
 
 ## Метод `update_object`
 
 ```python
-def update_object(self, uri: str, title: Optional[str] = None, description: Optional[str] = None, properties: Dict[str, Any] = {}) -> Optional[TNode]:
+def update_object(self, uri: str, title: Optional[str] = None, description: Optional[str] = None, properties: Dict[str, Any] = {}, object_properties: Optional[List[Dict[str, Any]]] = None) -> Optional[TNode]:
     obj = self.get_object(uri)
     if not obj:
         return None
@@ -418,6 +457,69 @@ def update_object(self, uri: str, title: Optional[str] = None, description: Opti
         for k in properties:
             if k not in param_uris:
                 raise ValueError(f"Unknown property {k}")
+
+        if object_properties is not None:
+            obj_param_uris = {p["uri"] for p in signature["obj_params"]}
+            for op in object_properties:
+                relation_uri = op.get("relation_uri", "")
+                if relation_uri not in obj_param_uris:
+                    raise ValueError(f"Unknown object property {relation_uri}")
+                if not self.get_node_by_uri(op.get("obj_uri", "")):
+                    raise ValueError(f"Target object not found: {op.get('obj_uri', '')}")
+
+            cypher_current = """
+            MATCH (o {uri: $uri})-[r]-(target)
+            WHERE target:`Object`
+            RETURN type(r) AS rel_type, target.uri AS target_uri, elementId(r) AS arc_id,
+                   CASE WHEN startNode(r).uri = $uri THEN 1 ELSE -1 END AS direction
+            """
+            current_rels = list(session.run(cypher_current, {"uri": uri}))
+
+            new_rels_set = set()
+            for op in object_properties:
+                key = (op.get("relation_uri", ""), op.get("obj_uri", ""), op.get("direction", 1))
+                new_rels_set.add(key)
+
+            for rel in current_rels:
+                rel_type = rel["rel_type"]
+                target_uri = rel["target_uri"]
+                arc_id = rel["arc_id"]
+                rel_direction = rel["direction"]
+                rel_node = None
+                for p in signature["obj_params"]:
+                    if p["title"] == rel_type:
+                        rel_node = p
+                        break
+                if rel_node:
+                    key = (rel_node["uri"], target_uri, rel_direction)
+                    if key not in new_rels_set:
+                        self.delete_arc_by_id(arc_id)
+
+            for op in object_properties:
+                obj_uri = op.get("obj_uri", "")
+                relation_uri = op.get("relation_uri", "")
+                direction = op.get("direction", 1)
+                rel_node = self.get_node_by_uri(relation_uri)
+                rel_type = rel_node["title"] if rel_node else "RELATED"
+                if direction == 1:
+                    cypher_check = """
+                    MATCH (o {uri: $uri})-[r]->(target {uri: $target_uri})
+                    WHERE type(r) = $rel_type
+                    RETURN count(r) AS cnt
+                    """
+                    check = session.run(cypher_check, {"uri": uri, "target_uri": obj_uri, "rel_type": rel_type}).single()
+                    if check and check["cnt"] == 0:
+                        self.create_arc(uri, obj_uri, rel_type)
+                else:
+                    cypher_check = """
+                    MATCH (target {uri: $target_uri})-[r]->(o {uri: $uri})
+                    WHERE type(r) = $rel_type
+                    RETURN count(r) AS cnt
+                    """
+                    check = session.run(cypher_check, {"uri": uri, "target_uri": obj_uri, "rel_type": rel_type}).single()
+                    if check and check["cnt"] == 0:
+                        self.create_arc(obj_uri, uri, rel_type)
+
         params = {}
         if title is not None:
             params["title"] = title
@@ -431,15 +533,29 @@ def update_object(self, uri: str, title: Optional[str] = None, description: Opti
 
 ```python
 with Neo4jRepository(config) as repo:
+    # Маша переезжает из Москвы в Санкт-Петербург
+    spb = repo.create_object(city_class["uri"], "Санкт-Петербург", "Культурная столица")
+
     updated = repo.update_object(
-        object_uri,
-        title="Пётр Петров",
-        properties={attr_name["uri"]: "Пётр"}
+        obj["uri"],
+        title="Мария",
+        properties={attr_name["uri"]: "Мария Ивановна"},
+        object_properties=[
+            {
+                "destination_class": city_class["uri"],
+                "obj_uri": spb["uri"],
+                "direction": 1,
+                "relation_uri": lives_in["uri"]
+            }
+        ]
     )
     print("Обновлённый объект:", updated)
 ```
 
-Обновляет `title`, `description` и свойства объекта. Свойства должны соответствовать `DatatypeProperty` класса объекта.
+Обновляет `title`, `description`, свойства объекта и его связи с другими объектами. При указании `object_properties`:
+- Связи, которых нет в новом списке, удаляются
+- Новые связи, которых ещё не было, создаются
+- `direction` учитывается при проверке и создании связей
 
 ## Метод `collect_signature`
 

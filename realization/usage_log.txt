@@ -1,47 +1,53 @@
-Started at: 2026-02-22T18:16:34
+Started at: 2026-02-25T00:33:24
 Connection URI: bolt://127.0.0.1:7687
 User: neo4j
 Database: None
 
 === Task #1: Node and Arc Operations===
 
-Created node 1: {'uri': 'http://ontology.com/XzuTrjAwPRji', 'title': '', 'description': 'test', 'label': 'Entity'}
-Created node 2: {'uri': 'http://ontology.com/IZLOQDxWzgFc', 'title': '', 'description': 'test2', 'label': 'Entity'}
-Fetched node: {'uri': 'http://ontology.com/XzuTrjAwPRji', 'title': '', 'description': 'test', 'label': 'Entity'}
-Updated node: {'uri': 'http://ontology.com/XzuTrjAwPRji', 'title': '', 'description': 'updated', 'label': 'Entity'}
-Nodes by label: [{'uri': 'http://ontology.com/IZLOQDxWzgFc', 'title': '', 'description': 'test2', 'label': 'Entity'}, {'uri': 'http://ontology.com/XzuTrjAwPRji', 'title': '', 'description': 'updated', 'label': 'Entity'}]
-All nodes: [{'uri': 'http://ontology.com/IZLOQDxWzgFc', 'title': '', 'description': 'test2', 'label': 'Entity'}, {'uri': 'http://ontology.com/p4UXINUxI4CS', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/XzuTrjAwPRji', 'title': '', 'description': 'updated', 'label': 'Entity'}, {'uri': 'http://ontology.com/TYh8gIHyAIlL', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}]
+Created node 1: {'uri': 'http://ontology.com/UB3Dmfgr9ZrG', 'title': '', 'description': 'test', 'label': 'Entity'}
+Created node 2: {'uri': 'http://ontology.com/2VadozG5I1eg', 'title': '', 'description': 'test2', 'label': 'Entity'}
+Fetched node: {'uri': 'http://ontology.com/UB3Dmfgr9ZrG', 'title': '', 'description': 'test', 'label': 'Entity'}
+Updated node: {'uri': 'http://ontology.com/UB3Dmfgr9ZrG', 'title': '', 'description': 'updated', 'label': 'Entity'}
+Nodes by label: [{'uri': 'http://ontology.com/2VadozG5I1eg', 'title': '', 'description': 'test2', 'label': 'Entity'}, {'uri': 'http://ontology.com/UB3Dmfgr9ZrG', 'title': '', 'description': 'updated', 'label': 'Entity'}]
+All nodes: [{'uri': 'http://ontology.com/ZTPgER39fLdi', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/p4UXINUxI4CS', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/TYh8gIHyAIlL', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/2VadozG5I1eg', 'title': '', 'description': 'test2', 'label': 'Entity'}, {'uri': 'http://ontology.com/A8QfvEnbknd3', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/UB3Dmfgr9ZrG', 'title': '', 'description': 'updated', 'label': 'Entity'}]
 All arcs: []
-Created arc: {'id': '5:3b48b00b-d4f7-40e9-a67b-1183a5e06934:1152921504606846982', 'uri': 'RELATED', 'node_uri_from': 'http://ontology.com/XzuTrjAwPRji', 'node_uri_to': 'http://ontology.com/IZLOQDxWzgFc'}
-All nodes after arc: [{'uri': 'http://ontology.com/IZLOQDxWzgFc', 'title': '', 'description': 'test2', 'label': 'Entity'}, {'uri': 'http://ontology.com/p4UXINUxI4CS', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/XzuTrjAwPRji', 'title': '', 'description': 'updated', 'label': 'Entity'}, {'uri': 'http://ontology.com/TYh8gIHyAIlL', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}]
-All arcs after arc: [{'id': '5:3b48b00b-d4f7-40e9-a67b-1183a5e06934:1152921504606846982', 'uri': 'RELATED', 'node_uri_from': 'http://ontology.com/XzuTrjAwPRji', 'node_uri_to': 'http://ontology.com/IZLOQDxWzgFc'}]
+Created arc: {'id': '5:3b48b00b-d4f7-40e9-a67b-1183a5e06934:1152921504606846989', 'uri': 'RELATED', 'node_uri_from': 'http://ontology.com/UB3Dmfgr9ZrG', 'node_uri_to': 'http://ontology.com/2VadozG5I1eg'}
+All nodes after arc: [{'uri': 'http://ontology.com/ZTPgER39fLdi', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/p4UXINUxI4CS', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/TYh8gIHyAIlL', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/2VadozG5I1eg', 'title': '', 'description': 'test2', 'label': 'Entity'}, {'uri': 'http://ontology.com/A8QfvEnbknd3', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}, {'uri': 'http://ontology.com/UB3Dmfgr9ZrG', 'title': '', 'description': 'updated', 'label': 'Entity'}]
+All arcs after arc: [{'id': '5:3b48b00b-d4f7-40e9-a67b-1183a5e06934:1152921504606846989', 'uri': 'RELATED', 'node_uri_from': 'http://ontology.com/UB3Dmfgr9ZrG', 'node_uri_to': 'http://ontology.com/2VadozG5I1eg'}]
 Deleted arc: True
 Deleted node 1: True
 Deleted node 2: True
 
 === Task #2: Ontology methods ===
 
-Created parent class: {'uri': 'http://ontology.com/OeEZBCZVloRX', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}
-Created child class: {'uri': 'http://ontology.com/MmRD5bilEhXe', 'title': 'Student', 'description': 'A person who studies', 'label': 'Class'}
-Created child class 2: {'uri': 'http://ontology.com/EjLzC8JFiNug', 'title': 'Teacher', 'description': 'A person who teaches', 'label': 'Class'}
-Ontology parent classes: [{'uri': 'http://ontology.com/OeEZBCZVloRX', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}]
-Fetched class: {'uri': 'http://ontology.com/OeEZBCZVloRX', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}
-Class parents: [{'uri': 'http://ontology.com/OeEZBCZVloRX', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}]
-Class children: [{'uri': 'http://ontology.com/MmRD5bilEhXe', 'title': 'Student', 'description': 'A person who studies', 'label': 'Class'}, {'uri': 'http://ontology.com/EjLzC8JFiNug', 'title': 'Teacher', 'description': 'A person who teaches', 'label': 'Class'}]
-Updated class: {'uri': 'http://ontology.com/OeEZBCZVloRX', 'title': 'Human', 'description': 'Updated description', 'label': 'Class'}
-Added DatatypeProperty: {'uri': 'http://ontology.com/QB3DprxWxe6E', 'title': 'name', 'description': '', 'label': 'DatatypeProperty'}
-Added DatatypeProperty: {'uri': 'http://ontology.com/ZTPgER39fLdi', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}
-Added ObjectProperty: {'uri': 'http://ontology.com/NxXTQSH9LWJk', 'title': 'teaches', 'description': '', 'label': 'ObjectProperty'}
-Signature: {'params': [{'title': 'age', 'uri': 'http://ontology.com/ZTPgER39fLdi'}, {'title': 'name', 'uri': 'http://ontology.com/QB3DprxWxe6E'}], 'obj_params': [{'title': 'teaches', 'uri': 'http://ontology.com/NxXTQSH9LWJk', 'target_class_uri': 'http://ontology.com/MmRD5bilEhXe', 'relation_direction': 1}]}
-Created object: {'uri': 'http://ontology.com/BtzS2qGsIMVZ', 'title': 'John Doe', 'description': 'A test person', 'label': 'Object'}
-Fetched object: {'uri': 'http://ontology.com/BtzS2qGsIMVZ', 'title': 'John Doe', 'description': 'A test person', 'label': 'Object'}
-Class objects: [{'uri': 'http://ontology.com/BtzS2qGsIMVZ', 'title': 'John Doe', 'description': 'A test person', 'label': 'Object'}]
-Updated object: {'uri': 'http://ontology.com/BtzS2qGsIMVZ', 'title': 'John Smith', 'description': 'A test person', 'label': 'Object'}
-Ontology nodes: 9
-Ontology arcs: 7
+Created parent class: {'uri': 'http://ontology.com/585Eag3OG0zs', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}
+Created child class: {'uri': 'http://ontology.com/wgpRa4WyssbF', 'title': 'Student', 'description': 'A person who studies', 'label': 'Class'}
+Created child class 2: {'uri': 'http://ontology.com/LrJbVwyLzlEf', 'title': 'Teacher', 'description': 'A person who teaches', 'label': 'Class'}
+Ontology parent classes: [{'uri': 'http://ontology.com/585Eag3OG0zs', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}]
+Fetched class: {'uri': 'http://ontology.com/585Eag3OG0zs', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}
+Class parents: [{'uri': 'http://ontology.com/585Eag3OG0zs', 'title': 'Person', 'description': 'A human being', 'label': 'Class'}]
+Class children: [{'uri': 'http://ontology.com/wgpRa4WyssbF', 'title': 'Student', 'description': 'A person who studies', 'label': 'Class'}, {'uri': 'http://ontology.com/LrJbVwyLzlEf', 'title': 'Teacher', 'description': 'A person who teaches', 'label': 'Class'}]
+Updated class: {'uri': 'http://ontology.com/585Eag3OG0zs', 'title': 'Human', 'description': 'Updated description', 'label': 'Class'}
+Added DatatypeProperty: {'uri': 'http://ontology.com/zvv1O1jZIcbG', 'title': 'name', 'description': '', 'label': 'DatatypeProperty'}
+Added DatatypeProperty: {'uri': 'http://ontology.com/9ZRt55z0Fv4C', 'title': 'age', 'description': '', 'label': 'DatatypeProperty'}
+Added ObjectProperty: {'uri': 'http://ontology.com/x0LIqGo9WwFg', 'title': 'teaches', 'description': '', 'label': 'ObjectProperty'}
+Created city class: {'uri': 'http://ontology.com/yHS5w1FOeN1L', 'title': 'City', 'description': 'A city', 'label': 'Class'}
+Added ObjectProperty lives_in: {'uri': 'http://ontology.com/VMr08nEswhSN', 'title': 'lives_in', 'description': '', 'label': 'ObjectProperty'}
+Signature: {'params': [{'title': 'age', 'uri': 'http://ontology.com/9ZRt55z0Fv4C'}, {'title': 'name', 'uri': 'http://ontology.com/zvv1O1jZIcbG'}], 'obj_params': [{'title': 'teaches', 'uri': 'http://ontology.com/x0LIqGo9WwFg', 'target_class_uri': 'http://ontology.com/wgpRa4WyssbF', 'relation_direction': 1}, {'title': 'lives_in', 'uri': 'http://ontology.com/VMr08nEswhSN', 'target_class_uri': 'http://ontology.com/yHS5w1FOeN1L', 'relation_direction': 1}]}
+Created city object Moscow: {'uri': 'http://ontology.com/RTDDHAPFnpXs', 'title': 'Moscow', 'description': 'Capital of Russia', 'label': 'Object'}
+Created city object SPB: {'uri': 'http://ontology.com/PZyqvv1cGEiE', 'title': 'Saint Petersburg', 'description': 'Cultural capital', 'label': 'Object'}
+Created object with object_properties: {'uri': 'http://ontology.com/8j5YuaS2YHOZ', 'title': 'Masha', 'description': 'A test person', 'label': 'Object'}
+Fetched object: {'uri': 'http://ontology.com/8j5YuaS2YHOZ', 'title': 'Masha', 'description': 'A test person', 'label': 'Object'}
+Class objects: [{'uri': 'http://ontology.com/8j5YuaS2YHOZ', 'title': 'Masha', 'description': 'A test person', 'label': 'Object'}]
+Updated object with new object_properties: {'uri': 'http://ontology.com/8j5YuaS2YHOZ', 'title': 'Maria', 'description': 'A test person', 'label': 'Object'}
+Ontology nodes: 15
+Ontology arcs: 12
 Deleted object: True
 Deleted DatatypeProperty: True
 Deleted ObjectProperty: True
+Deleted ObjectProperty lives_in: True
+Deleted city class: True
 Deleted class (cascade): True
-Finished at: 2026-02-22T18:16:35
-Log saved to: C:\IMPORTANT\NSU\3\nlp\CompLing\usage_log.txt
+Finished at: 2026-02-25T00:33:25
+Log saved to: C:\IMPORTANT\NSU\3\nlp\CompLing\realization\usage_log.txt

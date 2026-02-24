@@ -116,11 +116,36 @@ with open(log_path, "w", encoding="utf-8") as log_file:
             obj_attr = repo.add_class_object_attribute(parent_class["uri"], "teaches", child_class["uri"])
             print("Added ObjectProperty:", obj_attr)
 
+            city_class = repo.create_class("City", "A city")
+            print("Created city class:", city_class)
+
+            lives_in_attr = repo.add_class_object_attribute(parent_class["uri"], "lives_in", city_class["uri"])
+            print("Added ObjectProperty lives_in:", lives_in_attr)
+
             signature = repo.collect_signature(parent_class["uri"])
             print("Signature:", signature)
 
-            obj = repo.create_object(parent_class["uri"], "John Doe", "A test person", properties={attr_name["uri"]: "John", attr_age["uri"]: 25})
-            print("Created object:", obj)
+            moscow = repo.create_object(city_class["uri"], "Moscow", "Capital of Russia")
+            print("Created city object Moscow:", moscow)
+
+            spb = repo.create_object(city_class["uri"], "Saint Petersburg", "Cultural capital")
+            print("Created city object SPB:", spb)
+
+            obj = repo.create_object(
+                parent_class["uri"],
+                "Masha",
+                "A test person",
+                properties={attr_name["uri"]: "Maria", attr_age["uri"]: 25},
+                object_properties=[
+                    {
+                        "destination_class": city_class["uri"],
+                        "obj_uri": moscow["uri"],
+                        "direction": 1,
+                        "relation_uri": lives_in_attr["uri"]
+                    }
+                ]
+            )
+            print("Created object with object_properties:", obj)
 
             fetched_obj = repo.get_object(obj["uri"])
             print("Fetched object:", fetched_obj)
@@ -128,8 +153,20 @@ with open(log_path, "w", encoding="utf-8") as log_file:
             class_objects = repo.get_class_objects(parent_class["uri"])
             print("Class objects:", class_objects)
 
-            updated_obj = repo.update_object(obj["uri"], title="John Smith", properties={attr_name["uri"]: "John S."})
-            print("Updated object:", updated_obj)
+            updated_obj = repo.update_object(
+                obj["uri"],
+                title="Maria",
+                properties={attr_name["uri"]: "Maria I."},
+                object_properties=[
+                    {
+                        "destination_class": city_class["uri"],
+                        "obj_uri": spb["uri"],
+                        "direction": 1,
+                        "relation_uri": lives_in_attr["uri"]
+                    }
+                ]
+            )
+            print("Updated object with new object_properties:", updated_obj)
 
             all_nodes_onto, all_arcs_onto = repo.get_ontology()
             print("Ontology nodes:", len(all_nodes_onto))
@@ -143,6 +180,12 @@ with open(log_path, "w", encoding="utf-8") as log_file:
 
             deleted_obj_attr = repo.delete_class_object_attribute(obj_attr["uri"])
             print("Deleted ObjectProperty:", deleted_obj_attr)
+
+            deleted_lives_in = repo.delete_class_object_attribute(lives_in_attr["uri"])
+            print("Deleted ObjectProperty lives_in:", deleted_lives_in)
+
+            deleted_city_class = repo.delete_class(city_class["uri"])
+            print("Deleted city class:", deleted_city_class)
 
             deleted_class = repo.delete_class(parent_class["uri"])
             print("Deleted class (cascade):", deleted_class)

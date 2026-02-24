@@ -362,23 +362,43 @@ class Neo4jRepository:
             return False
         return self.delete_node_by_uri(uri)
 
-    def create_object(self, class_uri: str, title: str, description: str = "", properties: Dict[str, Any] = {}) -> TNode:
-        with self._driver.session(**self._session_kwargs()) as session:
-            if not self.get_class(class_uri):
-                raise ValueError("Class not found")
-            signature = self.collect_signature(class_uri)
-            param_uris = {p["uri"] for p in signature["params"]}
-            for k in properties:
-                if k not in param_uris:
-                    raise ValueError(f"Unknown property {k}")
-            uri = self.generate_random_string()
-            params = {"label": "Object", "title": title, "description": description, "uri": uri}
-            params.update(properties)
-            node = self.create_node(params)
-            self.create_arc(uri, class_uri, "INSTANCEOF")
-            return node
+    def create_object(self, class_uri: str, title: str, description: str = "", properties: Dict[str, Any] = {}, object_properties: List[Dict[str, Any]] = []) -> TNode:
+        if not self.get_class(class_uri):
+            raise ValueError("Class not found")
+        signature = self.collect_signature(class_uri)
+        param_uris = {p["uri"] for p in signature["params"]}
+        for k in properties:
+            if k not in param_uris:
+                raise ValueError(f"Unknown property {k}")
 
-    def update_object(self, uri: str, title: Optional[str] = None, description: Optional[str] = None, properties: Dict[str, Any] = {}) -> Optional[TNode]:
+        obj_param_uris = {p["uri"] for p in signature["obj_params"]}
+        for op in object_properties:
+            relation_uri = op.get("relation_uri", "")
+            if relation_uri not in obj_param_uris:
+                raise ValueError(f"Unknown object property {relation_uri}")
+            if not self.get_node_by_uri(op.get("obj_uri", "")):
+                raise ValueError(f"Target object not found: {op.get('obj_uri', '')}")
+
+        uri = self.generate_random_string()
+        params = {"label": "Object", "title": title, "description": description, "uri": uri}
+        params.update(properties)
+        node = self.create_node(params)
+        self.create_arc(uri, class_uri, "INSTANCEOF")
+
+        for op in object_properties:
+            obj_uri = op.get("obj_uri", "")
+            relation_uri = op.get("relation_uri", "")
+            direction = op.get("direction", 1)
+            rel_node = self.get_node_by_uri(relation_uri)
+            rel_type = rel_node["title"] if rel_node else "RELATED"
+            if direction == 1:
+                self.create_arc(uri, obj_uri, rel_type)
+            else:
+                self.create_arc(obj_uri, uri, rel_type)
+
+        return node
+
+    def update_object(self, uri: str, title: Optional[str] = None, description: Optional[str] = None, properties: Dict[str, Any] = {}, object_properties: Optional[List[Dict[str, Any]]] = None) -> Optional[TNode]:
         obj = self.get_object(uri)
         if not obj:
             return None
@@ -393,6 +413,69 @@ class Neo4jRepository:
             for k in properties:
                 if k not in param_uris:
                     raise ValueError(f"Unknown property {k}")
+
+            if object_properties is not None:
+                obj_param_uris = {p["uri"] for p in signature["obj_params"]}
+                for op in object_properties:
+                    relation_uri = op.get("relation_uri", "")
+                    if relation_uri not in obj_param_uris:
+                        raise ValueError(f"Unknown object property {relation_uri}")
+                    if not self.get_node_by_uri(op.get("obj_uri", "")):
+                        raise ValueError(f"Target object not found: {op.get('obj_uri', '')}")
+
+                cypher_current = """
+                MATCH (o {uri: $uri})-[r]-(target)
+                WHERE target:`Object`
+                RETURN type(r) AS rel_type, target.uri AS target_uri, elementId(r) AS arc_id,
+                       CASE WHEN startNode(r).uri = $uri THEN 1 ELSE -1 END AS direction
+                """
+                current_rels = list(session.run(cypher_current, {"uri": uri}))
+
+                new_rels_set = set()
+                for op in object_properties:
+                    key = (op.get("relation_uri", ""), op.get("obj_uri", ""), op.get("direction", 1))
+                    new_rels_set.add(key)
+
+                for rel in current_rels:
+                    rel_type = rel["rel_type"]
+                    target_uri = rel["target_uri"]
+                    arc_id = rel["arc_id"]
+                    rel_direction = rel["direction"]
+                    rel_node = None
+                    for p in signature["obj_params"]:
+                        if p["title"] == rel_type:
+                            rel_node = p
+                            break
+                    if rel_node:
+                        key = (rel_node["uri"], target_uri, rel_direction)
+                        if key not in new_rels_set:
+                            self.delete_arc_by_id(arc_id)
+
+                for op in object_properties:
+                    obj_uri = op.get("obj_uri", "")
+                    relation_uri = op.get("relation_uri", "")
+                    direction = op.get("direction", 1)
+                    rel_node = self.get_node_by_uri(relation_uri)
+                    rel_type = rel_node["title"] if rel_node else "RELATED"
+                    if direction == 1:
+                        cypher_check = """
+                        MATCH (o {uri: $uri})-[r]->(target {uri: $target_uri})
+                        WHERE type(r) = $rel_type
+                        RETURN count(r) AS cnt
+                        """
+                        check = session.run(cypher_check, {"uri": uri, "target_uri": obj_uri, "rel_type": rel_type}).single()
+                        if check and check["cnt"] == 0:
+                            self.create_arc(uri, obj_uri, rel_type)
+                    else:
+                        cypher_check = """
+                        MATCH (target {uri: $target_uri})-[r]->(o {uri: $uri})
+                        WHERE type(r) = $rel_type
+                        RETURN count(r) AS cnt
+                        """
+                        check = session.run(cypher_check, {"uri": uri, "target_uri": obj_uri, "rel_type": rel_type}).single()
+                        if check and check["cnt"] == 0:
+                            self.create_arc(obj_uri, uri, rel_type)
+
             params = {}
             if title is not None:
                 params["title"] = title
