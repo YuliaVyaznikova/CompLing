@@ -85,18 +85,49 @@ def _ru_stem(word: str) -> str:
     return w
 
 
-def _keyword_score(query: str, text: str) -> float:
+def _build_idf(node_texts: List[str]) -> Dict[str, float]:
+    n = len(node_texts)
+    doc_freq = {}
+    for text in node_texts:
+        seen = set()
+        for w in _tokenize(text):
+            stem = _ru_stem(w)
+            if stem not in seen:
+                seen.add(stem)
+                doc_freq[stem] = doc_freq.get(stem, 0) + 1
+    return {stem: max(1.0, n / (1 + df)) for stem, df in doc_freq.items()}
+
+
+_idf_cache: Optional[Dict[str, float]] = None
+_idf_cache_texts_hash: Optional[int] = None
+
+
+def _get_idf(node_texts: List[str]) -> Dict[str, float]:
+    global _idf_cache, _idf_cache_texts_hash
+    texts_hash = hash(tuple(t[:50] for t in node_texts[:10]))
+    if _idf_cache is None or _idf_cache_texts_hash != texts_hash:
+        _idf_cache = _build_idf(node_texts)
+        _idf_cache_texts_hash = texts_hash
+    return _idf_cache
+
+
+def _keyword_score(query: str, text: str, idf: Dict[str, float] = None) -> float:
     q_words = _tokenize(query, remove_stopwords=True)
     t_words = _tokenize(text)
     if not q_words:
         return 0.0
-    overlap = q_words & t_words
     t_stems = {_ru_stem(w) for w in t_words}
+    matched_weight = 0.0
+    total_weight = 0.0
     for qw in q_words:
         stem = _ru_stem(qw)
-        if stem in t_stems and qw not in overlap:
-            overlap.add(qw)
-    return len(overlap) / len(q_words)
+        w = idf.get(stem, 1.0) if idf else 1.0
+        total_weight += w
+        if qw in t_words or stem in t_stems:
+            matched_weight += w
+    if total_weight == 0:
+        return 0.0
+    return matched_weight / total_weight
 
 
 def retrieve(
@@ -109,11 +140,12 @@ def retrieve(
     alpha: float = 0.7,
 ) -> List[Tuple[str, str, float]]:
     query_embedding = get_embeddings(query, embedding_model_name)
+    idf = _get_idf(node_texts)
 
     results = []
     for i, node_emb in enumerate(embeddings):
         sem_score = cos_compare(query_embedding[0], node_emb)
-        kw_score = _keyword_score(query, node_texts[i])
+        kw_score = _keyword_score(query, node_texts[i], idf=idf)
         combined = alpha * sem_score + (1 - alpha) * kw_score
         results.append((node_uris[i], node_texts[i], combined))
 

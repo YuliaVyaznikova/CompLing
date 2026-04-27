@@ -16,11 +16,12 @@ def ask_llm(
 ) -> str:
     context = "\n\n".join(context_texts)
     prompt = (
-        f"Ниже приведены описания объектов из онтологии фильмов. "
+        f"Ниже приведены описания объектов из онтологии детективных фильмов. "
         f"Каждый объект имеет название, тип и связи с другими объектами. "
         f"Строки вида «Свойство Тип: Значение» означают, что данный объект имеет связь с объектом «Значение». "
         f"Строки вида «Имя (Тип) свойство» означают, что объект «Имя» имеет связь с данным объектом.\n\n"
-        f"Ответь на вопрос прямо и кратко. Не упоминай описания, онтологию или источники. "
+        f"Ответь на вопрос прямо и полно. Перечисли все подходящие объекты, если их несколько. "
+        f"Не упоминай описания, онтологию или источники. "
         f"Используй только факты, явно указанные в описаниях. Не придумывай факты.\n\n"
         f"Вопрос: {query}\n\n"
         f"Описания:\n{context}"
@@ -51,6 +52,17 @@ def phase2_retrieve_and_generate(
 ) -> dict:
     logger.info("Phase 2: Retrieving top %d nodes for query: %s", top_n, query)
     n_results = retrieve(query, node_uris, node_texts, embeddings, embedding_model_name, top_n=top_n)
+
+    best_score = n_results[0][2] if n_results else 0.0
+    if best_score < 0.4:
+        logger.info("Phase 2: Best score %.3f below threshold, question likely off-topic", best_score)
+        return {
+            "n_results": n_results,
+            "n_texts": [],
+            "n_uris": set(),
+            "initial_answer": "Я не могу ответить на этот вопрос - он не относится к онтологии фильмов.",
+        }
+
     n_texts = [text for _, text, _ in n_results]
     n_uris = set(uri for uri, _, _ in n_results)
 

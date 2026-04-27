@@ -2,6 +2,9 @@ import sys
 import os
 import logging
 
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from realization.ontology_rag import OntologyRAG
@@ -14,7 +17,7 @@ for h in logging.getLogger().handlers[:]:
 def main():
     print("start")
     rag = OntologyRAG(
-        ontology_path="C:/IMPORTANT/NSU/3/CL/6/ontology_all_films.json",
+        ontology_path=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ontology_all_films.json"),
         model_name="qwen2.5:3b",
     )
     rag.index()

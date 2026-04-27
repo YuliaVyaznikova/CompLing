@@ -2,16 +2,16 @@ import sys
 import os
 import time
 import logging
+import warnings
+
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+os.environ["HUGGINGFACE_HUB_DISABLE_TELEMETRY"] = "1"
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+warnings.filterwarnings("ignore")
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from realization.ontology_rag import OntologyRAG
-
-log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "demo_rag_log.txt")
-fh = logging.FileHandler(log_path, mode="w", encoding="utf-8")
-fh.setFormatter(logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s"))
-logging.getLogger().addHandler(fh)
-logging.getLogger().setLevel(logging.INFO)
 
 for h in logging.getLogger().handlers[:]:
     if isinstance(h, logging.StreamHandler) and not isinstance(h, logging.FileHandler):
@@ -40,39 +40,50 @@ TEST_QUERIES = [
 
 def main():
     rag = OntologyRAG(
-        ontology_path="C:/IMPORTANT/NSU/3/CL/6/ontology_all_films.json",
+        ontology_path=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ontology_all_films.json"),
         model_name="qwen2.5:3b",
     )
     rag.index()
 
-    print("=" * 70)
-    print(f"RAG demo {len(TEST_QUERIES)}")
-    print("=" * 70)
+    out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "demo_rag_results.txt")
+    lines = []
+    lines.append("=" * 70)
+    lines.append(f"RAG demo {len(TEST_QUERIES)}")
+    lines.append("=" * 70)
 
     for i, query in enumerate(TEST_QUERIES, 1):
-        print(f"\n{'─' * 70}")
-        print(f"Q{i}: {query}")
-        print(f"{'─' * 70}")
+        lines.append("")
+        lines.append("─" * 70)
+        lines.append(f"Q{i}: {query}")
+        lines.append("─" * 70)
 
         t0 = time.time()
         result = rag.answer(query, top_n=10, top_m=3)
         elapsed = time.time() - t0
 
-        print(f"Финальный ответ ({elapsed:.1f}s):")
-        print(result["final_answer"])
+        lines.append(f"Финальный ответ ({elapsed:.1f}s):")
+        lines.append(result["final_answer"])
 
-        print(f"\nУзлы фазы 2 ({len(result['phase2_nodes'])}):")
+        lines.append(f"Узлы фазы 2 ({len(result['phase2_nodes'])}):")
         for node in result["phase2_nodes"][:5]:
             label = node["text"].split("\n")[0].replace("Название: ", "")
-            print(f"  • {label} (score={node['score']:.3f})")
+            lines.append(f"  • {label} (score={node['score']:.3f})")
 
-        print(f"Узлы фазы 3 ({len(result['phase3_nodes'])}):")
+        lines.append(f"Узлы фазы 3 ({len(result['phase3_nodes'])}):")
         for node in result["phase3_nodes"][:3]:
             label = node["text"].split("\n")[0].replace("Название: ", "")
-            print(f"  • {label} (score={node['score']:.3f})")
+            lines.append(f"  • {label} (score={node['score']:.3f})")
 
-    print(f"\n{'=' * 70}")
-    print("Done.")
+    lines.append("")
+    lines.append("=" * 70)
+
+    output = "\n".join(lines)
+    print(output)
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(output)
+
+    print(f"\nРезультаты сохранены в {out_path}")
 
 
 if __name__ == "__main__":

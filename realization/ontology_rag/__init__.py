@@ -1,5 +1,11 @@
 import os
 import logging
+import warnings
+
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+os.environ["HUGGINGFACE_HUB_DISABLE_TELEMETRY"] = "1"
+warnings.filterwarnings("ignore")
+
 from typing import Dict, List, Optional
 
 import numpy as np
@@ -19,6 +25,8 @@ from .phase2_retrieve import phase2_retrieve_and_generate
 from .phase3_final import phase3_second_retrieval, phase3_final_generation
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
+warnings.filterwarnings("ignore", message=".*unauthenticated requests.*")
 logger = logging.getLogger("OntologyRAG")
 
 
@@ -125,6 +133,18 @@ class OntologyRAG:
             self.model_name,
             top_n=top_n,
         )
+
+        if not p2["n_texts"]:
+            return {
+                "query": query,
+                "initial_answer": p2["initial_answer"],
+                "final_answer": p2["initial_answer"],
+                "phase2_nodes": [
+                    {"uri": uri, "text": text, "score": score}
+                    for uri, text, score in p2["n_results"]
+                ],
+                "phase3_nodes": [],
+            }
 
         p3 = phase3_second_retrieval(
             query,

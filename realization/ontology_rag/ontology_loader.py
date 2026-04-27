@@ -185,7 +185,11 @@ def node_to_text(
                 if inst_label:
                     instances.append(inst_label)
         if instances:
-            lines.append(f"Экземпляры: {', '.join(instances)}")
+            instances.sort()
+            if len(instances) > 7:
+                lines.append(f"Экземпляры: {', '.join(instances[:7])} и другие")
+            else:
+                lines.append(f"Экземпляры: {', '.join(instances)}")
 
     comment = pv.get(RDFS_COMMENT, "")
     if comment:

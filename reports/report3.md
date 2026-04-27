@@ -306,21 +306,3 @@ results = find_similar_chunks(query, chunks, top_k=3)
 for r in results:
     print(f"  [{r['index']}] (sim={r['similarity']:.4f}): {r['chunk'][:80]}...")
 ```
-
-# Подавление вывода библиотек
-
-Для чистого вывода в логи настроены переменные окружения и логирование:
-
-```python
-import os
-import logging
-
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-os.environ["TRANSFORMERS_VERBOSITY"] = "error"
-os.environ["TQDM_DISABLE"] = "1"
-
-logging.getLogger("transformers").setLevel(logging.ERROR)
-logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
-```
-
-Это подавляет прогресс-бары `tqdm` и информационные сообщения от библиотек `transformers` и `sentence_transformers`.
