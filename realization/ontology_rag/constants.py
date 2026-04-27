@@ -1,0 +1,12 @@
+RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+RDFS_SUBCLASS = "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+RDFS_DOMAIN = "http://www.w3.org/2000/01/rdf-schema#domain"
+RDFS_RANGE = "http://www.w3.org/2000/01/rdf-schema#range"
+RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
+RDFS_COMMENT = "http://www.w3.org/2000/01/rdf-schema#comment"
+OWL_CLASS = "http://www.w3.org/2002/07/owl#Class"
+OWL_NAMED_INDIVIDUAL = "http://www.w3.org/2002/07/owl#NamedIndividual"
+OWL_OBJECT_PROPERTY = "http://www.w3.org/2002/07/owl#ObjectProperty"
+OWL_DATATYPE_PROPERTY = "http://www.w3.org/2002/07/owl#DatatypeProperty"
+
+W3_PREFIX = "http://www.w3.org"
