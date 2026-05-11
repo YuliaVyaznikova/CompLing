@@ -1,0 +1,733 @@
+{
+  "entites": [
+    {
+      "id": 0,
+      "pos_start": 0,
+      "pos_end": 3,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a417ed5e-c522-468a-84cb-1b6b98c534d1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a417ed5e-c522-468a-84cb-1b6b98c534d1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Ангелы и демоны 2009",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a417ed5e-c522-468a-84cb-1b6b98c534d1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Ангелы и демоны 2009",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a417ed5e-c522-468a-84cb-1b6b98c534d1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 1,
+      "pos_start": 2001,
+      "pos_end": 2002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/dead8ab2-2976-4923-a974-b34bdb38554d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/dead8ab2-2976-4923-a974-b34bdb38554d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Рон Ховард",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/dead8ab2-2976-4923-a974-b34bdb38554d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Рон Ховард",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/dead8ab2-2976-4923-a974-b34bdb38554d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 2,
+      "pos_start": 3000,
+      "pos_end": 3000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "жанр@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "жанр@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 3,
+      "pos_start": 3001,
+      "pos_end": 3002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/fe9204c8-eb43-46c9-a156-7422143470a1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/fe9204c8-eb43-46c9-a156-7422143470a1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#Class",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#comment",
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "ИнтеллектуальныйДетектив@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/fe9204c8-eb43-46c9-a156-7422143470a1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#comment": "Интеллектуальный детектив",
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "ИнтеллектуальныйДетектив@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/fe9204c8-eb43-46c9-a156-7422143470a1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 4,
+      "pos_start": 7003,
+      "pos_end": 7003,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Папа Римский",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Папа Римский",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 5,
+      "pos_start": 7005,
+      "pos_end": 7005,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Ватикан",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Ватикан",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 6,
+      "pos_start": 9000,
+      "pos_end": 9001,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Лэнгдон",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Лэнгдон",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 7,
+      "pos_start": 9004,
+      "pos_end": 9004,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Ватикан",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Ватикан",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/7f4dc079-9347-4b25-bf34-c343bc82f2a6"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 8,
+      "pos_start": 11000,
+      "pos_end": 11000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Лэнгдон",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Лэнгдон",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/eceda754-68fb-4811-b0d8-f7019497ae0c"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 9,
+      "pos_start": 13013,
+      "pos_end": 13014,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Патрик Маккенна",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Патрик Маккенна",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 10,
+      "pos_start": 13027,
+      "pos_end": 13027,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Папа Римский",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Папа Римский",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 11,
+      "pos_start": 15000,
+      "pos_end": 15000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Патрик Маккенна",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Патрик Маккенна",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/b980618a-a3d1-46a1-9f10-4f9aacb3a926"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 12,
+      "pos_start": 15013,
+      "pos_end": 15013,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Папа Римский",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Папа Римский",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a93c321f-4374-47f3-aab0-2add6cc295a0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "originalText": [
+    "Ангелы и демоны (2009)",
+    "",
+    "Режиссёр: Рон Ховард",
+    "Жанр: интеллектуальный детектив",
+    "",
+    "Сюжет",
+    "",
+    "После смерти Папы Римского в Ватикане начинается конклав по выбору нового понтифика. Однако четыре предпочтительных кандидата похищены, а в соборе Святого Петра обнаружена угроза взрыва антиматерии.",
+    "",
+    "Роберт Лэнгдон прилетает в Ватикан, чтобы помочь расшифровать послания иллюминатов — тайного общества, считающегося уничтоженным. Похитители обещают убивать кардиналов каждый час, а затем взорвать антиматерию.",
+    "",
+    "Лэнгдон вместе с учёной Витторией Ветра следует по Пути Иллюминации — серии подсказок, спрятанных в римских церквях и статуях. Они пытаются спасти кардиналов, но опаздывают: трое уже убиты.",
+    "",
+    "Четвёртого кардинала удаётся спасти. Выясняется, что за всем стоит не иллюминаты, а камерарий Патрик Маккенна, который инсценировал заговор, чтобы стать героем и получить власть. Он убил Папу Римского и организовал похищение.",
+    "",
+    "Маккенна погибает, взорвав себя вместе с антиматерией на высоте. Кардиналы выбирают нового Папу Римского."
+  ],
+  "textWithIds": {
+    "0": "Ангелы",
+    "1": "и",
+    "2": "демоны",
+    "3": "(2009)",
+    "2000": "Режиссёр:",
+    "2001": "Рон",
+    "2002": "Ховард",
+    "3000": "Жанр:",
+    "3001": "интеллектуальный",
+    "3002": "детектив",
+    "5000": "Сюжет",
+    "7000": "После",
+    "7001": "смерти",
+    "7002": "Папы",
+    "7003": "Римского",
+    "7004": "в",
+    "7005": "Ватикане",
+    "7006": "начинается",
+    "7007": "конклав",
+    "7008": "по",
+    "7009": "выбору",
+    "7010": "нового",
+    "7011": "понтифика.",
+    "7012": "Однако",
+    "7013": "четыре",
+    "7014": "предпочтительных",
+    "7015": "кандидата",
+    "7016": "похищены,",
+    "7017": "а",
+    "7018": "в",
+    "7019": "соборе",
+    "7020": "Святого",
+    "7021": "Петра",
+    "7022": "обнаружена",
+    "7023": "угроза",
+    "7024": "взрыва",
+    "7025": "антиматерии.",
+    "9000": "Роберт",
+    "9001": "Лэнгдон",
+    "9002": "прилетает",
+    "9003": "в",
+    "9004": "Ватикан,",
+    "9005": "чтобы",
+    "9006": "помочь",
+    "9007": "расшифровать",
+    "9008": "послания",
+    "9009": "иллюминатов",
+    "9010": "—",
+    "9011": "тайного",
+    "9012": "общества,",
+    "9013": "считающегося",
+    "9014": "уничтоженным.",
+    "9015": "Похитители",
+    "9016": "обещают",
+    "9017": "убивать",
+    "9018": "кардиналов",
+    "9019": "каждый",
+    "9020": "час,",
+    "9021": "а",
+    "9022": "затем",
+    "9023": "взорвать",
+    "9024": "антиматерию.",
+    "11000": "Лэнгдон",
+    "11001": "вместе",
+    "11002": "с",
+    "11003": "учёной",
+    "11004": "Витторией",
+    "11005": "Ветра",
+    "11006": "следует",
+    "11007": "по",
+    "11008": "Пути",
+    "11009": "Иллюминации",
+    "11010": "—",
+    "11011": "серии",
+    "11012": "подсказок,",
+    "11013": "спрятанных",
+    "11014": "в",
+    "11015": "римских",
+    "11016": "церквях",
+    "11017": "и",
+    "11018": "статуях.",
+    "11019": "Они",
+    "11020": "пытаются",
+    "11021": "спасти",
+    "11022": "кардиналов,",
+    "11023": "но",
+    "11024": "опаздывают:",
+    "11025": "трое",
+    "11026": "уже",
+    "11027": "убиты.",
+    "13000": "Четвёртого",
+    "13001": "кардинала",
+    "13002": "удаётся",
+    "13003": "спасти.",
+    "13004": "Выясняется,",
+    "13005": "что",
+    "13006": "за",
+    "13007": "всем",
+    "13008": "стоит",
+    "13009": "не",
+    "13010": "иллюминаты,",
+    "13011": "а",
+    "13012": "камерарий",
+    "13013": "Патрик",
+    "13014": "Маккенна,",
+    "13015": "который",
+    "13016": "инсценировал",
+    "13017": "заговор,",
+    "13018": "чтобы",
+    "13019": "стать",
+    "13020": "героем",
+    "13021": "и",
+    "13022": "получить",
+    "13023": "власть.",
+    "13024": "Он",
+    "13025": "убил",
+    "13026": "Папу",
+    "13027": "Римского",
+    "13028": "и",
+    "13029": "организовал",
+    "13030": "похищение.",
+    "15000": "Маккенна",
+    "15001": "погибает,",
+    "15002": "взорвав",
+    "15003": "себя",
+    "15004": "вместе",
+    "15005": "с",
+    "15006": "антиматерией",
+    "15007": "на",
+    "15008": "высоте.",
+    "15009": "Кардиналы",
+    "15010": "выбирают",
+    "15011": "нового",
+    "15012": "Папу",
+    "15013": "Римского."
+  }
+}

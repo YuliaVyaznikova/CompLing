@@ -1,0 +1,2203 @@
+{
+  "entites": [
+    {
+      "id": 0,
+      "pos_start": 0,
+      "pos_end": 2,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/6fd64fb5-a545-4034-9a6b-36339bb9c992",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/6fd64fb5-a545-4034-9a6b-36339bb9c992",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Достать ножи 2019",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/6fd64fb5-a545-4034-9a6b-36339bb9c992",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Достать ножи 2019",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/6fd64fb5-a545-4034-9a6b-36339bb9c992"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 1,
+      "pos_start": 2001,
+      "pos_end": 2002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Райан Джонсон",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Райан Джонсон",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 2,
+      "pos_start": 3000,
+      "pos_end": 3000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "жанр@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "жанр@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 3,
+      "pos_start": 7004,
+      "pos_end": 7005,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 4,
+      "pos_start": 7005,
+      "pos_end": 7005,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 5,
+      "pos_start": 7038,
+      "pos_end": 7039,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 6,
+      "pos_start": 9000,
+      "pos_end": 9000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 7,
+      "pos_start": 13018,
+      "pos_end": 13018,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 8,
+      "pos_start": 13027,
+      "pos_end": 13027,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 9,
+      "pos_start": 13029,
+      "pos_end": 13029,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/de0915b8-d3a2-4204-815f-2330e10b6f0b",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/de0915b8-d3a2-4204-815f-2330e10b6f0b",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "скрывает@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/de0915b8-d3a2-4204-815f-2330e10b6f0b",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "скрывает@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/de0915b8-d3a2-4204-815f-2330e10b6f0b"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 10,
+      "pos_start": 15030,
+      "pos_end": 15030,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d36e0cf4-75f4-4abf-8fda-09055cabf32d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d36e0cf4-75f4-4abf-8fda-09055cabf32d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "помогает@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d36e0cf4-75f4-4abf-8fda-09055cabf32d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "помогает@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d36e0cf4-75f4-4abf-8fda-09055cabf32d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 11,
+      "pos_start": 15059,
+      "pos_end": 15059,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 12,
+      "pos_start": 15059,
+      "pos_end": 15059,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 13,
+      "pos_start": 15067,
+      "pos_end": 15067,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "угрожает@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "угрожает@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 14,
+      "pos_start": 17032,
+      "pos_end": 17032,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 15,
+      "pos_start": 17046,
+      "pos_end": 17046,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 16,
+      "pos_start": 19035,
+      "pos_end": 19035,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 17,
+      "pos_start": 21012,
+      "pos_end": 21012,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 18,
+      "pos_start": 21030,
+      "pos_end": 21030,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 19,
+      "pos_start": 21030,
+      "pos_end": 21030,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 20,
+      "pos_start": 21041,
+      "pos_end": 21041,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 21,
+      "pos_start": 21041,
+      "pos_end": 21041,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 22,
+      "pos_start": 23000,
+      "pos_end": 23000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 23,
+      "pos_start": 25010,
+      "pos_end": 25010,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 24,
+      "pos_start": 29000,
+      "pos_end": 29000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 25,
+      "pos_start": 29023,
+      "pos_end": 29023,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 26,
+      "pos_start": 29030,
+      "pos_end": 29030,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 27,
+      "pos_start": 29030,
+      "pos_end": 29030,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 28,
+      "pos_start": 29037,
+      "pos_end": 29037,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 29,
+      "pos_start": 29061,
+      "pos_end": 29061,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 30,
+      "pos_start": 29061,
+      "pos_end": 29061,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 31,
+      "pos_start": 29073,
+      "pos_end": 29074,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Харлан Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/cd99ff41-1de4-47ff-a55b-d007a5b5ebd1"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 32,
+      "pos_start": 29074,
+      "pos_end": 29074,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Поместье Тромби",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/4e65b397-9bfb-497d-9f0d-a2805a8bb11d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "originalText": [
+    "Достать ножи (2019)",
+    "",
+    "Режиссёр: Райан Джонсон",
+    "Жанр: комедия-детектив",
+    "",
+    "Сюжет",
+    "",
+    "Семья богатого детективного писателя Харлана Тромби собирается на праздновании его 85-летия в особняке в Массачусетсе. На следующее утро экономка Фран находит Харлана мёртвым с перерезанным горлом. Полиция считает, что это было самоубийство, но неизвестный нанимает знаменитого частного сыщика Бенуа Бланка для проведения расследования.",
+    "",
+    "Бланк узнаёт, что отношения Харлана с его семьёй были натянутыми: в день своей смерти Харлан угрожал рассказать об измене своего зятя Ричарда его жене, своей дочери Линде; за кражу его денег урезал своей невестке Джони пособие; уволил сына Уолта из издательской компании; поссорился со своим внуком Рэнсомом, лишив его наследства.",
+    "",
+    "После вечеринки медсестра Харлана Марта Кабрера перепутала лекарства и, по-видимому, ввела слишком большую дозу морфина. Она не могла найти противоядие, и Харлану оставалось жить несколько минут. Зная, что мать Марты — нелегальный иммигрант, Харлан не позволил Марте вызвать скорую помощь и вместо этого дал ей инструкции, как сделать ложное алиби, чтобы спасти свою семью от проверки. Затем Харлан перерезал себе горло. Пожилая мать Харлана видела, как Марта вылезала из окна, но приняла её за Рэнсома.",
+    "",
+    "У Марты есть особенность: её рвёт, если она говорит ложь. Поэтому она даёт правдивые, но неполные ответы, когда Бланк задаёт ей вопросы. Она соглашается помочь в расследовании Бланка и скрывает свои следы, пока они с сыщиком обыскивают территорию.",
+    "",
+    "Оглашается завещание Харлана; ко всеобщему удивлению, он всё своё наследство — издательство, 60 миллионов долларов на различных счетах, дом и прочее имущество оставил Марте. Рэнсом, которого Харлан вычеркнул из завещания, помогает ей избежать гнева семьи, но зная о её особенности, угощает обедом в кафе и выбивает из неё правду. Рэнсом предлагает свою помощь в обмен на долю наследства. Другие Тромби пытаются убедить Марту отказаться от наследства. Уолт угрожает разоблачить нелегальный статус её матери.",
+    "",
+    "Марта получает анонимную записку, содержащую частичную фотокопию токсикологического отчёта Харлана. Она и Рэнсом едут в службу судмедэкспертизы, но здание службы сгорело. Марта получает анонимное электронное письмо от шантажиста с предложением о встрече. Бланк и полиция замечают Марту и Рэнсома, и после непродолжительной автомобильной погони Рэнсом арестован. Бланк объясняет, что мать Харлана видела, как Рэнсом спускался по стене из комнаты Харлана в ночь его смерти.",
+    "",
+    "Марта идёт на встречу и обнаруживает, что Фран накачали наркотиками. Она колеблется, понимая, что Фран может связать её с преступлением, но в конечном итоге выполняет меры по реанимации и звонит в Службу спасения. Марта признается Бланку, хотя Рэнсом уже всё сообщил о ней.",
+    "",
+    "В доме Марта находит копию полного токсикологического отчёта, спрятанного в тайнике Фран. Бланк читает отчёт и прерывает Марту, прежде чем она успевает признаться. Марте он говорит, что по его мнению, Тромби меньше всего заслуживают своё наследство, так как он считает, что Тромби вытирали об неё ноги.",
+    "",
+    "Бланк раскрывает свои выводы: Харлан сказал Рэнсому, что оставляет всё Марте, поэтому Рэнсом поменял содержимое пузырьков с лекарствами Харлана и украл противоядие, чтобы заставить Марту убить Харлана и, таким образом, лишиться права претендовать на наследство по правилу недостойного наследника. Марта, однако, дала Харлану правильное лекарство, узнав его по внешнему виду и структуре жидкости, и пришла к выводу, что она отравила его, только после прочтения этикетки.",
+    "",
+    "Когда о смерти сообщили как о самоубийстве, Рэнсом анонимно нанял Бланка, чтобы он разоблачил Марту. Фран увидела, как Рэнсом подделывает следы на месте преступления, и отправила ему записку с компрометирующими его материалами. После того, как Рэнсом понял, что Марта дала Харлану правильное лекарство, он переслал Марте записку Фран и поджёг здание судмедэкспертизы, чтобы уничтожить доказательства невиновности Марты. Он ввёл Фран слишком большую дозу морфина, чтобы Марту поймали с трупом Фран.",
+    "",
+    "Марта обманом заставляет Рэнсома признаться, говоря, что Фран выжила и даст показания против него. Однако тут же её тошнит, рвота попадает на Рэнсома. Это указывает на ложь: Фран мертва, а Рэнсом сознался в её убийстве. Его признание записано на диктофон. В ярости Рэнсом вонзает нож в Марту, но лезвие ножа, оказавшегося реквизитом, проваливается в рукоятку. Полицейские, ставшие свидетелями покушения, арестовывают Рэнсома.",
+    "",
+    "Бланк рассказывает Марте, что он сразу понял, что она сыграла роль в смерти Харлана, заметив небольшое пятно крови на её туфле. Марта спрашивает Бланка, как ей поступить с родственниками покойного Тромби, ведь они многое сделали для неё. Бланк советует ей послушать своё сердце. Линда находит записку от Харлана, раскрывающую измену её мужа. Когда Рэнсома берут под стражу, Марта наблюдает за семейством Тромби с балкона теперь уже её особняка, держа в руках кружку покойного Харлана Тромби с надписью «Мой дом. Мои правила. Мой кофе».",
+    ""
+  ],
+  "textWithIds": {
+    "0": "Достать",
+    "1": "ножи",
+    "2": "(2019)",
+    "2000": "Режиссёр:",
+    "2001": "Райан",
+    "2002": "Джонсон",
+    "3000": "Жанр:",
+    "3001": "комедия-детектив",
+    "5000": "Сюжет",
+    "7000": "Семья",
+    "7001": "богатого",
+    "7002": "детективного",
+    "7003": "писателя",
+    "7004": "Харлана",
+    "7005": "Тромби",
+    "7006": "собирается",
+    "7007": "на",
+    "7008": "праздновании",
+    "7009": "его",
+    "7010": "85-летия",
+    "7011": "в",
+    "7012": "особняке",
+    "7013": "в",
+    "7014": "Массачусетсе.",
+    "7015": "На",
+    "7016": "следующее",
+    "7017": "утро",
+    "7018": "экономка",
+    "7019": "Фран",
+    "7020": "находит",
+    "7021": "Харлана",
+    "7022": "мёртвым",
+    "7023": "с",
+    "7024": "перерезанным",
+    "7025": "горлом.",
+    "7026": "Полиция",
+    "7027": "считает,",
+    "7028": "что",
+    "7029": "это",
+    "7030": "было",
+    "7031": "самоубийство,",
+    "7032": "но",
+    "7033": "неизвестный",
+    "7034": "нанимает",
+    "7035": "знаменитого",
+    "7036": "частного",
+    "7037": "сыщика",
+    "7038": "Бенуа",
+    "7039": "Бланка",
+    "7040": "для",
+    "7041": "проведения",
+    "7042": "расследования.",
+    "9000": "Бланк",
+    "9001": "узнаёт,",
+    "9002": "что",
+    "9003": "отношения",
+    "9004": "Харлана",
+    "9005": "с",
+    "9006": "его",
+    "9007": "семьёй",
+    "9008": "были",
+    "9009": "натянутыми:",
+    "9010": "в",
+    "9011": "день",
+    "9012": "своей",
+    "9013": "смерти",
+    "9014": "Харлан",
+    "9015": "угрожал",
+    "9016": "рассказать",
+    "9017": "об",
+    "9018": "измене",
+    "9019": "своего",
+    "9020": "зятя",
+    "9021": "Ричарда",
+    "9022": "его",
+    "9023": "жене,",
+    "9024": "своей",
+    "9025": "дочери",
+    "9026": "Линде;",
+    "9027": "за",
+    "9028": "кражу",
+    "9029": "его",
+    "9030": "денег",
+    "9031": "урезал",
+    "9032": "своей",
+    "9033": "невестке",
+    "9034": "Джони",
+    "9035": "пособие;",
+    "9036": "уволил",
+    "9037": "сына",
+    "9038": "Уолта",
+    "9039": "из",
+    "9040": "издательской",
+    "9041": "компании;",
+    "9042": "поссорился",
+    "9043": "со",
+    "9044": "своим",
+    "9045": "внуком",
+    "9046": "Рэнсомом,",
+    "9047": "лишив",
+    "9048": "его",
+    "9049": "наследства.",
+    "11000": "После",
+    "11001": "вечеринки",
+    "11002": "медсестра",
+    "11003": "Харлана",
+    "11004": "Марта",
+    "11005": "Кабрера",
+    "11006": "перепутала",
+    "11007": "лекарства",
+    "11008": "и,",
+    "11009": "по-видимому,",
+    "11010": "ввела",
+    "11011": "слишком",
+    "11012": "большую",
+    "11013": "дозу",
+    "11014": "морфина.",
+    "11015": "Она",
+    "11016": "не",
+    "11017": "могла",
+    "11018": "найти",
+    "11019": "противоядие,",
+    "11020": "и",
+    "11021": "Харлану",
+    "11022": "оставалось",
+    "11023": "жить",
+    "11024": "несколько",
+    "11025": "минут.",
+    "11026": "Зная,",
+    "11027": "что",
+    "11028": "мать",
+    "11029": "Марты",
+    "11030": "—",
+    "11031": "нелегальный",
+    "11032": "иммигрант,",
+    "11033": "Харлан",
+    "11034": "не",
+    "11035": "позволил",
+    "11036": "Марте",
+    "11037": "вызвать",
+    "11038": "скорую",
+    "11039": "помощь",
+    "11040": "и",
+    "11041": "вместо",
+    "11042": "этого",
+    "11043": "дал",
+    "11044": "ей",
+    "11045": "инструкции,",
+    "11046": "как",
+    "11047": "сделать",
+    "11048": "ложное",
+    "11049": "алиби,",
+    "11050": "чтобы",
+    "11051": "спасти",
+    "11052": "свою",
+    "11053": "семью",
+    "11054": "от",
+    "11055": "проверки.",
+    "11056": "Затем",
+    "11057": "Харлан",
+    "11058": "перерезал",
+    "11059": "себе",
+    "11060": "горло.",
+    "11061": "Пожилая",
+    "11062": "мать",
+    "11063": "Харлана",
+    "11064": "видела,",
+    "11065": "как",
+    "11066": "Марта",
+    "11067": "вылезала",
+    "11068": "из",
+    "11069": "окна,",
+    "11070": "но",
+    "11071": "приняла",
+    "11072": "её",
+    "11073": "за",
+    "11074": "Рэнсома.",
+    "13000": "У",
+    "13001": "Марты",
+    "13002": "есть",
+    "13003": "особенность:",
+    "13004": "её",
+    "13005": "рвёт,",
+    "13006": "если",
+    "13007": "она",
+    "13008": "говорит",
+    "13009": "ложь.",
+    "13010": "Поэтому",
+    "13011": "она",
+    "13012": "даёт",
+    "13013": "правдивые,",
+    "13014": "но",
+    "13015": "неполные",
+    "13016": "ответы,",
+    "13017": "когда",
+    "13018": "Бланк",
+    "13019": "задаёт",
+    "13020": "ей",
+    "13021": "вопросы.",
+    "13022": "Она",
+    "13023": "соглашается",
+    "13024": "помочь",
+    "13025": "в",
+    "13026": "расследовании",
+    "13027": "Бланка",
+    "13028": "и",
+    "13029": "скрывает",
+    "13030": "свои",
+    "13031": "следы,",
+    "13032": "пока",
+    "13033": "они",
+    "13034": "с",
+    "13035": "сыщиком",
+    "13036": "обыскивают",
+    "13037": "территорию.",
+    "15000": "Оглашается",
+    "15001": "завещание",
+    "15002": "Харлана;",
+    "15003": "ко",
+    "15004": "всеобщему",
+    "15005": "удивлению,",
+    "15006": "он",
+    "15007": "всё",
+    "15008": "своё",
+    "15009": "наследство",
+    "15010": "—",
+    "15011": "издательство,",
+    "15012": "60",
+    "15013": "миллионов",
+    "15014": "долларов",
+    "15015": "на",
+    "15016": "различных",
+    "15017": "счетах,",
+    "15018": "дом",
+    "15019": "и",
+    "15020": "прочее",
+    "15021": "имущество",
+    "15022": "оставил",
+    "15023": "Марте.",
+    "15024": "Рэнсом,",
+    "15025": "которого",
+    "15026": "Харлан",
+    "15027": "вычеркнул",
+    "15028": "из",
+    "15029": "завещания,",
+    "15030": "помогает",
+    "15031": "ей",
+    "15032": "избежать",
+    "15033": "гнева",
+    "15034": "семьи,",
+    "15035": "но",
+    "15036": "зная",
+    "15037": "о",
+    "15038": "её",
+    "15039": "особенности,",
+    "15040": "угощает",
+    "15041": "обедом",
+    "15042": "в",
+    "15043": "кафе",
+    "15044": "и",
+    "15045": "выбивает",
+    "15046": "из",
+    "15047": "неё",
+    "15048": "правду.",
+    "15049": "Рэнсом",
+    "15050": "предлагает",
+    "15051": "свою",
+    "15052": "помощь",
+    "15053": "в",
+    "15054": "обмен",
+    "15055": "на",
+    "15056": "долю",
+    "15057": "наследства.",
+    "15058": "Другие",
+    "15059": "Тромби",
+    "15060": "пытаются",
+    "15061": "убедить",
+    "15062": "Марту",
+    "15063": "отказаться",
+    "15064": "от",
+    "15065": "наследства.",
+    "15066": "Уолт",
+    "15067": "угрожает",
+    "15068": "разоблачить",
+    "15069": "нелегальный",
+    "15070": "статус",
+    "15071": "её",
+    "15072": "матери.",
+    "17000": "Марта",
+    "17001": "получает",
+    "17002": "анонимную",
+    "17003": "записку,",
+    "17004": "содержащую",
+    "17005": "частичную",
+    "17006": "фотокопию",
+    "17007": "токсикологического",
+    "17008": "отчёта",
+    "17009": "Харлана.",
+    "17010": "Она",
+    "17011": "и",
+    "17012": "Рэнсом",
+    "17013": "едут",
+    "17014": "в",
+    "17015": "службу",
+    "17016": "судмедэкспертизы,",
+    "17017": "но",
+    "17018": "здание",
+    "17019": "службы",
+    "17020": "сгорело.",
+    "17021": "Марта",
+    "17022": "получает",
+    "17023": "анонимное",
+    "17024": "электронное",
+    "17025": "письмо",
+    "17026": "от",
+    "17027": "шантажиста",
+    "17028": "с",
+    "17029": "предложением",
+    "17030": "о",
+    "17031": "встрече.",
+    "17032": "Бланк",
+    "17033": "и",
+    "17034": "полиция",
+    "17035": "замечают",
+    "17036": "Марту",
+    "17037": "и",
+    "17038": "Рэнсома,",
+    "17039": "и",
+    "17040": "после",
+    "17041": "непродолжительной",
+    "17042": "автомобильной",
+    "17043": "погони",
+    "17044": "Рэнсом",
+    "17045": "арестован.",
+    "17046": "Бланк",
+    "17047": "объясняет,",
+    "17048": "что",
+    "17049": "мать",
+    "17050": "Харлана",
+    "17051": "видела,",
+    "17052": "как",
+    "17053": "Рэнсом",
+    "17054": "спускался",
+    "17055": "по",
+    "17056": "стене",
+    "17057": "из",
+    "17058": "комнаты",
+    "17059": "Харлана",
+    "17060": "в",
+    "17061": "ночь",
+    "17062": "его",
+    "17063": "смерти.",
+    "19000": "Марта",
+    "19001": "идёт",
+    "19002": "на",
+    "19003": "встречу",
+    "19004": "и",
+    "19005": "обнаруживает,",
+    "19006": "что",
+    "19007": "Фран",
+    "19008": "накачали",
+    "19009": "наркотиками.",
+    "19010": "Она",
+    "19011": "колеблется,",
+    "19012": "понимая,",
+    "19013": "что",
+    "19014": "Фран",
+    "19015": "может",
+    "19016": "связать",
+    "19017": "её",
+    "19018": "с",
+    "19019": "преступлением,",
+    "19020": "но",
+    "19021": "в",
+    "19022": "конечном",
+    "19023": "итоге",
+    "19024": "выполняет",
+    "19025": "меры",
+    "19026": "по",
+    "19027": "реанимации",
+    "19028": "и",
+    "19029": "звонит",
+    "19030": "в",
+    "19031": "Службу",
+    "19032": "спасения.",
+    "19033": "Марта",
+    "19034": "признается",
+    "19035": "Бланку,",
+    "19036": "хотя",
+    "19037": "Рэнсом",
+    "19038": "уже",
+    "19039": "всё",
+    "19040": "сообщил",
+    "19041": "о",
+    "19042": "ней.",
+    "21000": "В",
+    "21001": "доме",
+    "21002": "Марта",
+    "21003": "находит",
+    "21004": "копию",
+    "21005": "полного",
+    "21006": "токсикологического",
+    "21007": "отчёта,",
+    "21008": "спрятанного",
+    "21009": "в",
+    "21010": "тайнике",
+    "21011": "Фран.",
+    "21012": "Бланк",
+    "21013": "читает",
+    "21014": "отчёт",
+    "21015": "и",
+    "21016": "прерывает",
+    "21017": "Марту,",
+    "21018": "прежде",
+    "21019": "чем",
+    "21020": "она",
+    "21021": "успевает",
+    "21022": "признаться.",
+    "21023": "Марте",
+    "21024": "он",
+    "21025": "говорит,",
+    "21026": "что",
+    "21027": "по",
+    "21028": "его",
+    "21029": "мнению,",
+    "21030": "Тромби",
+    "21031": "меньше",
+    "21032": "всего",
+    "21033": "заслуживают",
+    "21034": "своё",
+    "21035": "наследство,",
+    "21036": "так",
+    "21037": "как",
+    "21038": "он",
+    "21039": "считает,",
+    "21040": "что",
+    "21041": "Тромби",
+    "21042": "вытирали",
+    "21043": "об",
+    "21044": "неё",
+    "21045": "ноги.",
+    "23000": "Бланк",
+    "23001": "раскрывает",
+    "23002": "свои",
+    "23003": "выводы:",
+    "23004": "Харлан",
+    "23005": "сказал",
+    "23006": "Рэнсому,",
+    "23007": "что",
+    "23008": "оставляет",
+    "23009": "всё",
+    "23010": "Марте,",
+    "23011": "поэтому",
+    "23012": "Рэнсом",
+    "23013": "поменял",
+    "23014": "содержимое",
+    "23015": "пузырьков",
+    "23016": "с",
+    "23017": "лекарствами",
+    "23018": "Харлана",
+    "23019": "и",
+    "23020": "украл",
+    "23021": "противоядие,",
+    "23022": "чтобы",
+    "23023": "заставить",
+    "23024": "Марту",
+    "23025": "убить",
+    "23026": "Харлана",
+    "23027": "и,",
+    "23028": "таким",
+    "23029": "образом,",
+    "23030": "лишиться",
+    "23031": "права",
+    "23032": "претендовать",
+    "23033": "на",
+    "23034": "наследство",
+    "23035": "по",
+    "23036": "правилу",
+    "23037": "недостойного",
+    "23038": "наследника.",
+    "23039": "Марта,",
+    "23040": "однако,",
+    "23041": "дала",
+    "23042": "Харлану",
+    "23043": "правильное",
+    "23044": "лекарство,",
+    "23045": "узнав",
+    "23046": "его",
+    "23047": "по",
+    "23048": "внешнему",
+    "23049": "виду",
+    "23050": "и",
+    "23051": "структуре",
+    "23052": "жидкости,",
+    "23053": "и",
+    "23054": "пришла",
+    "23055": "к",
+    "23056": "выводу,",
+    "23057": "что",
+    "23058": "она",
+    "23059": "отравила",
+    "23060": "его,",
+    "23061": "только",
+    "23062": "после",
+    "23063": "прочтения",
+    "23064": "этикетки.",
+    "25000": "Когда",
+    "25001": "о",
+    "25002": "смерти",
+    "25003": "сообщили",
+    "25004": "как",
+    "25005": "о",
+    "25006": "самоубийстве,",
+    "25007": "Рэнсом",
+    "25008": "анонимно",
+    "25009": "нанял",
+    "25010": "Бланка,",
+    "25011": "чтобы",
+    "25012": "он",
+    "25013": "разоблачил",
+    "25014": "Марту.",
+    "25015": "Фран",
+    "25016": "увидела,",
+    "25017": "как",
+    "25018": "Рэнсом",
+    "25019": "подделывает",
+    "25020": "следы",
+    "25021": "на",
+    "25022": "месте",
+    "25023": "преступления,",
+    "25024": "и",
+    "25025": "отправила",
+    "25026": "ему",
+    "25027": "записку",
+    "25028": "с",
+    "25029": "компрометирующими",
+    "25030": "его",
+    "25031": "материалами.",
+    "25032": "После",
+    "25033": "того,",
+    "25034": "как",
+    "25035": "Рэнсом",
+    "25036": "понял,",
+    "25037": "что",
+    "25038": "Марта",
+    "25039": "дала",
+    "25040": "Харлану",
+    "25041": "правильное",
+    "25042": "лекарство,",
+    "25043": "он",
+    "25044": "переслал",
+    "25045": "Марте",
+    "25046": "записку",
+    "25047": "Фран",
+    "25048": "и",
+    "25049": "поджёг",
+    "25050": "здание",
+    "25051": "судмедэкспертизы,",
+    "25052": "чтобы",
+    "25053": "уничтожить",
+    "25054": "доказательства",
+    "25055": "невиновности",
+    "25056": "Марты.",
+    "25057": "Он",
+    "25058": "ввёл",
+    "25059": "Фран",
+    "25060": "слишком",
+    "25061": "большую",
+    "25062": "дозу",
+    "25063": "морфина,",
+    "25064": "чтобы",
+    "25065": "Марту",
+    "25066": "поймали",
+    "25067": "с",
+    "25068": "трупом",
+    "25069": "Фран.",
+    "27000": "Марта",
+    "27001": "обманом",
+    "27002": "заставляет",
+    "27003": "Рэнсома",
+    "27004": "признаться,",
+    "27005": "говоря,",
+    "27006": "что",
+    "27007": "Фран",
+    "27008": "выжила",
+    "27009": "и",
+    "27010": "даст",
+    "27011": "показания",
+    "27012": "против",
+    "27013": "него.",
+    "27014": "Однако",
+    "27015": "тут",
+    "27016": "же",
+    "27017": "её",
+    "27018": "тошнит,",
+    "27019": "рвота",
+    "27020": "попадает",
+    "27021": "на",
+    "27022": "Рэнсома.",
+    "27023": "Это",
+    "27024": "указывает",
+    "27025": "на",
+    "27026": "ложь:",
+    "27027": "Фран",
+    "27028": "мертва,",
+    "27029": "а",
+    "27030": "Рэнсом",
+    "27031": "сознался",
+    "27032": "в",
+    "27033": "её",
+    "27034": "убийстве.",
+    "27035": "Его",
+    "27036": "признание",
+    "27037": "записано",
+    "27038": "на",
+    "27039": "диктофон.",
+    "27040": "В",
+    "27041": "ярости",
+    "27042": "Рэнсом",
+    "27043": "вонзает",
+    "27044": "нож",
+    "27045": "в",
+    "27046": "Марту,",
+    "27047": "но",
+    "27048": "лезвие",
+    "27049": "ножа,",
+    "27050": "оказавшегося",
+    "27051": "реквизитом,",
+    "27052": "проваливается",
+    "27053": "в",
+    "27054": "рукоятку.",
+    "27055": "Полицейские,",
+    "27056": "ставшие",
+    "27057": "свидетелями",
+    "27058": "покушения,",
+    "27059": "арестовывают",
+    "27060": "Рэнсома.",
+    "29000": "Бланк",
+    "29001": "рассказывает",
+    "29002": "Марте,",
+    "29003": "что",
+    "29004": "он",
+    "29005": "сразу",
+    "29006": "понял,",
+    "29007": "что",
+    "29008": "она",
+    "29009": "сыграла",
+    "29010": "роль",
+    "29011": "в",
+    "29012": "смерти",
+    "29013": "Харлана,",
+    "29014": "заметив",
+    "29015": "небольшое",
+    "29016": "пятно",
+    "29017": "крови",
+    "29018": "на",
+    "29019": "её",
+    "29020": "туфле.",
+    "29021": "Марта",
+    "29022": "спрашивает",
+    "29023": "Бланка,",
+    "29024": "как",
+    "29025": "ей",
+    "29026": "поступить",
+    "29027": "с",
+    "29028": "родственниками",
+    "29029": "покойного",
+    "29030": "Тромби,",
+    "29031": "ведь",
+    "29032": "они",
+    "29033": "многое",
+    "29034": "сделали",
+    "29035": "для",
+    "29036": "неё.",
+    "29037": "Бланк",
+    "29038": "советует",
+    "29039": "ей",
+    "29040": "послушать",
+    "29041": "своё",
+    "29042": "сердце.",
+    "29043": "Линда",
+    "29044": "находит",
+    "29045": "записку",
+    "29046": "от",
+    "29047": "Харлана,",
+    "29048": "раскрывающую",
+    "29049": "измену",
+    "29050": "её",
+    "29051": "мужа.",
+    "29052": "Когда",
+    "29053": "Рэнсома",
+    "29054": "берут",
+    "29055": "под",
+    "29056": "стражу,",
+    "29057": "Марта",
+    "29058": "наблюдает",
+    "29059": "за",
+    "29060": "семейством",
+    "29061": "Тромби",
+    "29062": "с",
+    "29063": "балкона",
+    "29064": "теперь",
+    "29065": "уже",
+    "29066": "её",
+    "29067": "особняка,",
+    "29068": "держа",
+    "29069": "в",
+    "29070": "руках",
+    "29071": "кружку",
+    "29072": "покойного",
+    "29073": "Харлана",
+    "29074": "Тромби",
+    "29075": "с",
+    "29076": "надписью",
+    "29077": "«Мой",
+    "29078": "дом.",
+    "29079": "Мои",
+    "29080": "правила.",
+    "29081": "Мой",
+    "29082": "кофе»."
+  }
+}

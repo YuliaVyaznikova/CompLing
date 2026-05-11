@@ -1,0 +1,1185 @@
+{
+  "entites": [
+    {
+      "id": 0,
+      "pos_start": 0,
+      "pos_end": 2,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/aa324388-2ddb-4565-a088-d9f0658e4882",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/aa324388-2ddb-4565-a088-d9f0658e4882",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Остров проклятых 2009",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/aa324388-2ddb-4565-a088-d9f0658e4882",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Остров проклятых 2009",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/aa324388-2ddb-4565-a088-d9f0658e4882"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 1,
+      "pos_start": 2001,
+      "pos_end": 2002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e6effc45-2534-4642-a7be-8ed4d14e6f97",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e6effc45-2534-4642-a7be-8ed4d14e6f97",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Мартин Скорсезе",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e6effc45-2534-4642-a7be-8ed4d14e6f97",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Мартин Скорсезе",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e6effc45-2534-4642-a7be-8ed4d14e6f97"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 2,
+      "pos_start": 3000,
+      "pos_end": 3000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "жанр@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "жанр@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 3,
+      "pos_start": 3001,
+      "pos_end": 3002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ddc2e91a-d35d-4d3d-802c-d8c8006270b8",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ddc2e91a-d35d-4d3d-802c-d8c8006270b8",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#Class",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#comment",
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "ПсихологическийТриллер@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ddc2e91a-d35d-4d3d-802c-d8c8006270b8",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#comment": "Психологический триллер",
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "ПсихологическийТриллер@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ddc2e91a-d35d-4d3d-802c-d8c8006270b8"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 4,
+      "pos_start": 7002,
+      "pos_end": 7003,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 5,
+      "pos_start": 7003,
+      "pos_end": 7003,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 6,
+      "pos_start": 7006,
+      "pos_end": 7007,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/bffd36e2-f1e0-47b9-abf9-f48197d9bd45",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/bffd36e2-f1e0-47b9-abf9-f48197d9bd45",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Остров Шаттер",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/bffd36e2-f1e0-47b9-abf9-f48197d9bd45",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Остров Шаттер",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/bffd36e2-f1e0-47b9-abf9-f48197d9bd45"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 7,
+      "pos_start": 7016,
+      "pos_end": 7016,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a686a35a-b38b-423a-8d78-757db232f5bc",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a686a35a-b38b-423a-8d78-757db232f5bc",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "расследует@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a686a35a-b38b-423a-8d78-757db232f5bc",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "расследует@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/a686a35a-b38b-423a-8d78-757db232f5bc"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 8,
+      "pos_start": 9008,
+      "pos_end": 9008,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 9,
+      "pos_start": 9008,
+      "pos_end": 9008,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 10,
+      "pos_start": 11000,
+      "pos_end": 11001,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Доктор Коули",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Доктор Коули",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 11,
+      "pos_start": 11011,
+      "pos_end": 11011,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 12,
+      "pos_start": 11011,
+      "pos_end": 11011,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 13,
+      "pos_start": 13000,
+      "pos_end": 13000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 14,
+      "pos_start": 13000,
+      "pos_end": 13000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 15,
+      "pos_start": 13017,
+      "pos_end": 13017,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 16,
+      "pos_start": 13017,
+      "pos_end": 13017,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 17,
+      "pos_start": 13040,
+      "pos_end": 13040,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Доктор Коули",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Доктор Коули",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 18,
+      "pos_start": 15000,
+      "pos_end": 15000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 19,
+      "pos_start": 15000,
+      "pos_end": 15000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 20,
+      "pos_start": 15016,
+      "pos_end": 15017,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Эдвард Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/e13633fd-3e2d-476f-82c3-4b756b880f30"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 21,
+      "pos_start": 15017,
+      "pos_end": 15017,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Долорес Дэниелс",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3bddb92e-c116-45b9-bee4-1e2a02c6b479"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 22,
+      "pos_start": 15019,
+      "pos_end": 15019,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Доктор Коули",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Доктор Коули",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/14530360-6f61-4404-8629-23ba3e60d650"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "originalText": [
+    "Остров проклятых (2009)",
+    "",
+    "Режиссёр: Мартин Скорсезе",
+    "Жанр: психологический триллер",
+    "",
+    "Сюжет",
+    "",
+    "Федеральный маршал Эдвард Дэниелс прибывает на остров Шаттер, где расположена психиатрическая лечебница для опасных преступников. Он расследует исчезновение пациентки Рейчел Соландо.",
+    "",
+    "На острове бушует шторм, отрезавший связь с материком. Дэниелс обнаруживает странности: врачи скрывают информацию, пациенты ведут себя подозрительно, а на острове запрещён доступ к маяку.",
+    "",
+    "Доктор Коули, главный врач, утверждает, что Рейчел сбежала, но следов нет. Дэниелс начинает подозревать, что на острове проводят незаконные эксперименты над пациентами — лоботомию и психохирургию.",
+    "",
+    "Дэниелс проникает в маяк, ожидая найти там лабораторию, но обнаруживает лишь пустое помещение. В финале выясняется, что Дэниелс сам — пациент лечебницы Эндрю Леддис, убивший свою жену после того, как она утопила их детей. Всё расследование было ролевой игрой, организованной Коули, чтобы Леддис осознал реальность.",
+    "",
+    "Дэниелс осознаёт правду, но решает не жить с этим знанием. На следующий день он снова становится Эдвардом Дэниелсом, и Коули отправляет его на лоботомию."
+  ],
+  "textWithIds": {
+    "0": "Остров",
+    "1": "проклятых",
+    "2": "(2009)",
+    "2000": "Режиссёр:",
+    "2001": "Мартин",
+    "2002": "Скорсезе",
+    "3000": "Жанр:",
+    "3001": "психологический",
+    "3002": "триллер",
+    "5000": "Сюжет",
+    "7000": "Федеральный",
+    "7001": "маршал",
+    "7002": "Эдвард",
+    "7003": "Дэниелс",
+    "7004": "прибывает",
+    "7005": "на",
+    "7006": "остров",
+    "7007": "Шаттер,",
+    "7008": "где",
+    "7009": "расположена",
+    "7010": "психиатрическая",
+    "7011": "лечебница",
+    "7012": "для",
+    "7013": "опасных",
+    "7014": "преступников.",
+    "7015": "Он",
+    "7016": "расследует",
+    "7017": "исчезновение",
+    "7018": "пациентки",
+    "7019": "Рейчел",
+    "7020": "Соландо.",
+    "9000": "На",
+    "9001": "острове",
+    "9002": "бушует",
+    "9003": "шторм,",
+    "9004": "отрезавший",
+    "9005": "связь",
+    "9006": "с",
+    "9007": "материком.",
+    "9008": "Дэниелс",
+    "9009": "обнаруживает",
+    "9010": "странности:",
+    "9011": "врачи",
+    "9012": "скрывают",
+    "9013": "информацию,",
+    "9014": "пациенты",
+    "9015": "ведут",
+    "9016": "себя",
+    "9017": "подозрительно,",
+    "9018": "а",
+    "9019": "на",
+    "9020": "острове",
+    "9021": "запрещён",
+    "9022": "доступ",
+    "9023": "к",
+    "9024": "маяку.",
+    "11000": "Доктор",
+    "11001": "Коули,",
+    "11002": "главный",
+    "11003": "врач,",
+    "11004": "утверждает,",
+    "11005": "что",
+    "11006": "Рейчел",
+    "11007": "сбежала,",
+    "11008": "но",
+    "11009": "следов",
+    "11010": "нет.",
+    "11011": "Дэниелс",
+    "11012": "начинает",
+    "11013": "подозревать,",
+    "11014": "что",
+    "11015": "на",
+    "11016": "острове",
+    "11017": "проводят",
+    "11018": "незаконные",
+    "11019": "эксперименты",
+    "11020": "над",
+    "11021": "пациентами",
+    "11022": "—",
+    "11023": "лоботомию",
+    "11024": "и",
+    "11025": "психохирургию.",
+    "13000": "Дэниелс",
+    "13001": "проникает",
+    "13002": "в",
+    "13003": "маяк,",
+    "13004": "ожидая",
+    "13005": "найти",
+    "13006": "там",
+    "13007": "лабораторию,",
+    "13008": "но",
+    "13009": "обнаруживает",
+    "13010": "лишь",
+    "13011": "пустое",
+    "13012": "помещение.",
+    "13013": "В",
+    "13014": "финале",
+    "13015": "выясняется,",
+    "13016": "что",
+    "13017": "Дэниелс",
+    "13018": "сам",
+    "13019": "—",
+    "13020": "пациент",
+    "13021": "лечебницы",
+    "13022": "Эндрю",
+    "13023": "Леддис,",
+    "13024": "убивший",
+    "13025": "свою",
+    "13026": "жену",
+    "13027": "после",
+    "13028": "того,",
+    "13029": "как",
+    "13030": "она",
+    "13031": "утопила",
+    "13032": "их",
+    "13033": "детей.",
+    "13034": "Всё",
+    "13035": "расследование",
+    "13036": "было",
+    "13037": "ролевой",
+    "13038": "игрой,",
+    "13039": "организованной",
+    "13040": "Коули,",
+    "13041": "чтобы",
+    "13042": "Леддис",
+    "13043": "осознал",
+    "13044": "реальность.",
+    "15000": "Дэниелс",
+    "15001": "осознаёт",
+    "15002": "правду,",
+    "15003": "но",
+    "15004": "решает",
+    "15005": "не",
+    "15006": "жить",
+    "15007": "с",
+    "15008": "этим",
+    "15009": "знанием.",
+    "15010": "На",
+    "15011": "следующий",
+    "15012": "день",
+    "15013": "он",
+    "15014": "снова",
+    "15015": "становится",
+    "15016": "Эдвардом",
+    "15017": "Дэниелсом,",
+    "15018": "и",
+    "15019": "Коули",
+    "15020": "отправляет",
+    "15021": "его",
+    "15022": "на",
+    "15023": "лоботомию."
+  }
+}

@@ -1,0 +1,1138 @@
+{
+  "entites": [
+    {
+      "id": 0,
+      "pos_start": 0,
+      "pos_end": 1,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/551a95e5-d1cd-44d1-adda-8bc567adde0f",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/551a95e5-d1cd-44d1-adda-8bc567adde0f",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак 2007",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/551a95e5-d1cd-44d1-adda-8bc567adde0f",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак 2007",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/551a95e5-d1cd-44d1-adda-8bc567adde0f"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 1,
+      "pos_start": 0,
+      "pos_end": 0,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 2,
+      "pos_start": 2001,
+      "pos_end": 2002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/099b841e-dcca-49dd-a5e1-7541e535b81d",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/099b841e-dcca-49dd-a5e1-7541e535b81d",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Дэвид Финчер",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/099b841e-dcca-49dd-a5e1-7541e535b81d",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Дэвид Финчер",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/099b841e-dcca-49dd-a5e1-7541e535b81d"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 3,
+      "pos_start": 3000,
+      "pos_end": 3000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "жанр@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "жанр@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 4,
+      "pos_start": 3001,
+      "pos_end": 3002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d3c82b8e-5d38-419c-877f-965f5bfb5005",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d3c82b8e-5d38-419c-877f-965f5bfb5005",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#Class",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#comment",
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "КриминальныйТриллер@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d3c82b8e-5d38-419c-877f-965f5bfb5005",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#comment": "Криминальный триллер",
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "КриминальныйТриллер@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d3c82b8e-5d38-419c-877f-965f5bfb5005"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 5,
+      "pos_start": 7001,
+      "pos_end": 7001,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Сан-Франциско",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Сан-Франциско",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 6,
+      "pos_start": 7001,
+      "pos_end": 7001,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Полиция Сан-Франциско",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Полиция Сан-Франциско",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 7,
+      "pos_start": 7008,
+      "pos_end": 7008,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 8,
+      "pos_start": 7018,
+      "pos_end": 7018,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "угрожает@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "угрожает@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/727727e9-4e06-42d5-946b-f44ed5cea9ee"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 9,
+      "pos_start": 9002,
+      "pos_end": 9003,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 10,
+      "pos_start": 9007,
+      "pos_end": 9007,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 11,
+      "pos_start": 9009,
+      "pos_end": 9010,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Дэйв Тоски",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Дэйв Тоски",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 12,
+      "pos_start": 11000,
+      "pos_end": 11000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 13,
+      "pos_start": 11001,
+      "pos_end": 11001,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fb4d554-5049-4658-b764-77531d85ecc6",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fb4d554-5049-4658-b764-77531d85ecc6",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "совершает@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fb4d554-5049-4658-b764-77531d85ecc6",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "совершает@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fb4d554-5049-4658-b764-77531d85ecc6"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 14,
+      "pos_start": 11009,
+      "pos_end": 11009,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Сан-Франциско",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Сан-Франциско",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/df1c4b83-5c46-4fbf-a7cc-4c06d632ea3a"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 15,
+      "pos_start": 11009,
+      "pos_end": 11009,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Полиция Сан-Франциско",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Полиция Сан-Франциско",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/841ada19-b153-4c81-9548-22a096e017de"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 16,
+      "pos_start": 13000,
+      "pos_end": 13000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 17,
+      "pos_start": 13014,
+      "pos_end": 13016,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/932ac564-6d32-4e90-91e4-6c6039fd74cc",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/932ac564-6d32-4e90-91e4-6c6039fd74cc",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Артур Ли Аллен",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/932ac564-6d32-4e90-91e4-6c6039fd74cc",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Артур Ли Аллен",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/932ac564-6d32-4e90-91e4-6c6039fd74cc"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 18,
+      "pos_start": 15002,
+      "pos_end": 15002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Дэйв Тоски",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Дэйв Тоски",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f515406e-bc65-4375-8a9c-4b3709132959"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 19,
+      "pos_start": 15006,
+      "pos_end": 15006,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 20,
+      "pos_start": 15010,
+      "pos_end": 15010,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Зодиак",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/980be4a0-06ac-4553-b3fe-e07cdf54a69f"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 21,
+      "pos_start": 15017,
+      "pos_end": 15017,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Роберт Грейсмит",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/3fbb2437-7de1-4de6-85c4-37e7fffc1851"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "originalText": [
+    "Зодиак (2007)",
+    "",
+    "Режиссёр: Дэвид Финчер",
+    "Жанр: криминальный триллер",
+    "",
+    "Сюжет",
+    "",
+    "В Сан-Франциско 1969 года серийный убийца по прозвищу Зодиак начинает терроризировать город, отправляя зашифрованные письма в газеты. Он угрожает совершить новое убийство, если письма не будут опубликованы.",
+    "",
+    "Мультяшник газеты Роберт Грейсмит увлекается разгадыванием шифров Зодиака. Инспектор Дэйв Тоски ведёт расследование, но дело заходит в тупик — улик недостаточно.",
+    "",
+    "Зодиак совершает несколько нападений, убивая людей в разных местах Сан-Франциско и его окрестностей. Он отправляет новые письма, включая криптограмму из 340 символов, которую не могут расшифровать годами.",
+    "",
+    "Грейсмит продолжает расследование самостоятельно, даже после того как полиция закрывает дело. Он изучает подозреваемого Артура Ли Аллена, чьё алиби не проверено до конца.",
+    "",
+    "Проходят годы. Тоски отстранён от дела, Грейсмит пишет книгу о Зодиаке. Дело так и остаётся нераскрытым, хотя Грейсмит уверен, что убийцей был Аллен, который умирает до того, как ДНК-анализ может подтвердить или опровергнуть это."
+  ],
+  "textWithIds": {
+    "0": "Зодиак",
+    "1": "(2007)",
+    "2000": "Режиссёр:",
+    "2001": "Дэвид",
+    "2002": "Финчер",
+    "3000": "Жанр:",
+    "3001": "криминальный",
+    "3002": "триллер",
+    "5000": "Сюжет",
+    "7000": "В",
+    "7001": "Сан-Франциско",
+    "7002": "1969",
+    "7003": "года",
+    "7004": "серийный",
+    "7005": "убийца",
+    "7006": "по",
+    "7007": "прозвищу",
+    "7008": "Зодиак",
+    "7009": "начинает",
+    "7010": "терроризировать",
+    "7011": "город,",
+    "7012": "отправляя",
+    "7013": "зашифрованные",
+    "7014": "письма",
+    "7015": "в",
+    "7016": "газеты.",
+    "7017": "Он",
+    "7018": "угрожает",
+    "7019": "совершить",
+    "7020": "новое",
+    "7021": "убийство,",
+    "7022": "если",
+    "7023": "письма",
+    "7024": "не",
+    "7025": "будут",
+    "7026": "опубликованы.",
+    "9000": "Мультяшник",
+    "9001": "газеты",
+    "9002": "Роберт",
+    "9003": "Грейсмит",
+    "9004": "увлекается",
+    "9005": "разгадыванием",
+    "9006": "шифров",
+    "9007": "Зодиака.",
+    "9008": "Инспектор",
+    "9009": "Дэйв",
+    "9010": "Тоски",
+    "9011": "ведёт",
+    "9012": "расследование,",
+    "9013": "но",
+    "9014": "дело",
+    "9015": "заходит",
+    "9016": "в",
+    "9017": "тупик",
+    "9018": "—",
+    "9019": "улик",
+    "9020": "недостаточно.",
+    "11000": "Зодиак",
+    "11001": "совершает",
+    "11002": "несколько",
+    "11003": "нападений,",
+    "11004": "убивая",
+    "11005": "людей",
+    "11006": "в",
+    "11007": "разных",
+    "11008": "местах",
+    "11009": "Сан-Франциско",
+    "11010": "и",
+    "11011": "его",
+    "11012": "окрестностей.",
+    "11013": "Он",
+    "11014": "отправляет",
+    "11015": "новые",
+    "11016": "письма,",
+    "11017": "включая",
+    "11018": "криптограмму",
+    "11019": "из",
+    "11020": "340",
+    "11021": "символов,",
+    "11022": "которую",
+    "11023": "не",
+    "11024": "могут",
+    "11025": "расшифровать",
+    "11026": "годами.",
+    "13000": "Грейсмит",
+    "13001": "продолжает",
+    "13002": "расследование",
+    "13003": "самостоятельно,",
+    "13004": "даже",
+    "13005": "после",
+    "13006": "того",
+    "13007": "как",
+    "13008": "полиция",
+    "13009": "закрывает",
+    "13010": "дело.",
+    "13011": "Он",
+    "13012": "изучает",
+    "13013": "подозреваемого",
+    "13014": "Артура",
+    "13015": "Ли",
+    "13016": "Аллена,",
+    "13017": "чьё",
+    "13018": "алиби",
+    "13019": "не",
+    "13020": "проверено",
+    "13021": "до",
+    "13022": "конца.",
+    "15000": "Проходят",
+    "15001": "годы.",
+    "15002": "Тоски",
+    "15003": "отстранён",
+    "15004": "от",
+    "15005": "дела,",
+    "15006": "Грейсмит",
+    "15007": "пишет",
+    "15008": "книгу",
+    "15009": "о",
+    "15010": "Зодиаке.",
+    "15011": "Дело",
+    "15012": "так",
+    "15013": "и",
+    "15014": "остаётся",
+    "15015": "нераскрытым,",
+    "15016": "хотя",
+    "15017": "Грейсмит",
+    "15018": "уверен,",
+    "15019": "что",
+    "15020": "убийцей",
+    "15021": "был",
+    "15022": "Аллен,",
+    "15023": "который",
+    "15024": "умирает",
+    "15025": "до",
+    "15026": "того,",
+    "15027": "как",
+    "15028": "ДНК-анализ",
+    "15029": "может",
+    "15030": "подтвердить",
+    "15031": "или",
+    "15032": "опровергнуть",
+    "15033": "это."
+  }
+}

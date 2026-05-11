@@ -4,6 +4,9 @@ import time
 import logging
 import warnings
 
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
+
 os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
 os.environ["HUGGINGFACE_HUB_DISABLE_TELEMETRY"] = "1"
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
@@ -39,11 +42,13 @@ TEST_QUERIES = [
 
 
 def main():
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     rag = OntologyRAG(
-        ontology_path=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ontology_all_films.json"),
-        model_name="qwen2.5:3b",
+        ontology_path=os.path.join(base_dir, "ontology_all_films.json"),
+        llm_api_key=os.environ.get("POLZA_AI_API_KEY"),
+        markup_dir=os.path.join(base_dir, "markup"),
     )
-    rag.index()
+    rag.index(force_reindex=True)
 
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "demo_rag_results.txt")
     lines = []
@@ -61,9 +66,6 @@ def main():
         result = rag.answer(query, top_n=10, top_m=3)
         elapsed = time.time() - t0
 
-        lines.append(f"Финальный ответ ({elapsed:.1f}s):")
-        lines.append(result["final_answer"])
-
         lines.append(f"Узлы фазы 2 ({len(result['phase2_nodes'])}):")
         for node in result["phase2_nodes"][:5]:
             label = node["text"].split("\n")[0].replace("Название: ", "")
@@ -73,6 +75,22 @@ def main():
         for node in result["phase3_nodes"][:3]:
             label = node["text"].split("\n")[0].replace("Название: ", "")
             lines.append(f"  • {label} (score={node['score']:.3f})")
+
+        text_fragments = result.get("text_fragments", {})
+        if text_fragments:
+            lines.append("Текстовые фрагменты из разметки:")
+            all_frags = []
+            for uri, frags in text_fragments.items():
+                for frag in frags:
+                    all_frags.append(frag.replace("\n", " "))
+            for i, frag in enumerate(all_frags):
+                if i > 0:
+                    lines.append("  ──────────────────────────────────────────────────────────")
+                lines.append(f"  {frag}")
+
+        lines.append("  ──────────────────────────────────────────────────────────")
+        lines.append(f"Финальный ответ ({elapsed:.1f}s):")
+        lines.append(result["final_answer"])
 
     lines.append("")
     lines.append("=" * 70)

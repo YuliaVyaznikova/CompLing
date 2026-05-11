@@ -1,5 +1,6 @@
 import os
 import logging
+import re
 import warnings
 
 os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
@@ -23,6 +24,7 @@ from .constants import RDFS_LABEL
 from .phase1_index import index, retrieve
 from .phase2_retrieve import phase2_retrieve_and_generate
 from .phase3_final import phase3_second_retrieval, phase3_final_generation
+from .markup_loader import load_all_markups, build_entity_fragment_index, retrieve_text_fragments
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
@@ -34,15 +36,25 @@ class OntologyRAG:
     def __init__(
         self,
         ontology_path: str,
-        model_name: str = "qwen2.5:3b",
+        model_name: str = "deepseek/deepseek-v4-flash",
         embedding_model_name: str = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-        ollama_base_url: str = "http://localhost:11434/v1",
+        llm_base_url: str = "https://polza.ai/api/v1",
+        llm_api_key: str = None,
         cache_dir: str = None,
+        markup_dir: str = None,
+        fragment_K: int = 2,
+        fragment_L: int = 3,
     ):
         self.ontology_path = ontology_path
         self.model_name = model_name
         self.embedding_model_name = embedding_model_name
-        self.ollama_base_url = ollama_base_url
+        self.llm_base_url = llm_base_url
+        self.fragment_K = fragment_K
+        self.fragment_L = fragment_L
+
+        if llm_api_key is None:
+            llm_api_key = os.environ.get("POLZA_AI_API_KEY", "unused")
+        self.llm_api_key = llm_api_key
 
         if cache_dir is None:
             cache_dir = os.path.join(os.path.dirname(ontology_path), ".rag_cache")
@@ -92,11 +104,48 @@ class OntologyRAG:
         if skipped:
             logger.info("Filtered out %d isolated nodes", skipped)
 
+        self.embeddings: Optional[np.ndarray] = None
+        self.client = OpenAI(base_url=self.llm_base_url, api_key=self.llm_api_key)
+
+        self.uri_to_fragments: Dict[str, List[str]] = {}
+        if markup_dir:
+            logger.info("Loading markup files from %s", markup_dir)
+            markups = load_all_markups(markup_dir)
+            if markups:
+                self.uri_to_fragments = build_entity_fragment_index(markups, K=fragment_K)
+        elif os.path.isdir(os.path.join(os.path.dirname(ontology_path), 'markup')):
+            markup_dir = os.path.join(os.path.dirname(ontology_path), 'markup')
+            logger.info("Auto-detected markup dir: %s", markup_dir)
+            markups = load_all_markups(markup_dir)
+            if markups:
+                self.uri_to_fragments = build_entity_fragment_index(markups, K=fragment_K)
+
+        enriched_count = 0
+        for uri, fragments in self.uri_to_fragments.items():
+            if uri in self.node_descriptions and fragments:
+                desc = self.node_descriptions[uri]
+                desc_words = set(desc.lower().split())
+                best_frag = None
+                best_overlap = -1
+                for frag in fragments:
+                    frag_words = set(frag.lower().split())
+                    overlap = len(desc_words & frag_words)
+                    if overlap > best_overlap:
+                        best_overlap = overlap
+                        best_frag = frag
+                if best_frag is None:
+                    best_frag = fragments[0]
+                if len(best_frag) > 300:
+                    best_frag = best_frag[:300] + "..."
+                desc = re.sub(r'\nОписание: .+', '', desc)
+                desc += f"\nОписание: {best_frag}"
+                self.node_descriptions[uri] = desc
+                enriched_count += 1
+        if enriched_count:
+            logger.info("Enriched %d node descriptions with text fragments", enriched_count)
+
         self.node_uris = list(self.node_descriptions.keys())
         self.node_texts = list(self.node_descriptions.values())
-
-        self.embeddings: Optional[np.ndarray] = None
-        self.client = OpenAI(base_url=self.ollama_base_url, api_key="unused")
 
     def index(self, force_reindex: bool = False):
         self.embeddings = index(
@@ -162,12 +211,25 @@ class OntologyRAG:
         p2_texts = p2["n_texts"]
         p3_texts = p3["m_texts"]
 
+        all_entity_uris = list(p2["n_uris"] | p3["m_uris"])
+        text_fragments = {}
+        if self.uri_to_fragments and all_entity_uris:
+            text_fragments = retrieve_text_fragments(
+                all_entity_uris,
+                self.uri_to_fragments,
+                query,
+                self.embedding_model_name,
+                top_l=self.fragment_L,
+            )
+            logger.info("Retrieved text fragments for %d entities", len(text_fragments))
+
         final_answer = phase3_final_generation(
             query,
             p2_texts,
             p3_texts,
             self.client,
             self.model_name,
+            text_fragments=text_fragments,
         )
 
         return {
@@ -183,4 +245,5 @@ class OntologyRAG:
                 for uri, text, score in p3["m_results"]
                 if uri in p3["m_uris"]
             ],
+            "text_fragments": text_fragments,
         }

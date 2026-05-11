@@ -1,4 +1,5 @@
 import logging
+import re
 from typing import List, Tuple
 
 from openai import OpenAI
@@ -21,7 +22,8 @@ def ask_llm(
         f"Строки вида «Свойство Тип: Значение» означают, что данный объект имеет связь с объектом «Значение». "
         f"Строки вида «Имя (Тип) свойство» означают, что объект «Имя» имеет связь с данным объектом.\n\n"
         f"Ответь на вопрос прямо и полно. Перечисли все подходящие объекты, если их несколько. "
-        f"Не упоминай описания, онтологию или источники. "
+        f"Не упоминай описания, онтологию или источники — даже если в вопросе есть такие слова, перефразируй ответ без них. "
+        f"Не используй форматирование markdown (звёздочки, решётки, обратные кавычки и т.д.). "
         f"Используй только факты, явно указанные в описаниях. Не придумывай факты.\n\n"
         f"Вопрос: {query}\n\n"
         f"Описания:\n{context}"
@@ -34,7 +36,14 @@ def ask_llm(
             temperature=0.3,
             max_tokens=1024,
         )
-        return response.choices[0].message.content
+        answer = response.choices[0].message.content
+        answer = re.sub(r'\*\*(.+?)\*\*', r'\1', answer)
+        answer = re.sub(r'\*(.+?)\*', r'\1', answer)
+        answer = re.sub(r'__(.+?)__', r'\1', answer)
+        answer = re.sub(r'_(.+?)_', r'\1', answer)
+        answer = re.sub(r'^#{1,6}\s+', '', answer, flags=re.MULTILINE)
+        answer = re.sub(r'`(.+?)`', r'\1', answer)
+        return answer
     except Exception as e:
         logger.error("LLM request failed: %s", e)
         raise

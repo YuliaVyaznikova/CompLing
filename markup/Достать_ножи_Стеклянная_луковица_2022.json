@@ -1,0 +1,607 @@
+{
+  "entites": [
+    {
+      "id": 0,
+      "pos_start": 0,
+      "pos_end": 4,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f3aee658-2934-4fa6-9274-0c9ea917836e",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f3aee658-2934-4fa6-9274-0c9ea917836e",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Достать ножи: Стеклянная луковица 2022",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f3aee658-2934-4fa6-9274-0c9ea917836e",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Достать ножи: Стеклянная луковица 2022",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/f3aee658-2934-4fa6-9274-0c9ea917836e"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 1,
+      "pos_start": 2001,
+      "pos_end": 2002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Райан Джонсон",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Райан Джонсон",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/652ae6db-065b-45de-8c6a-b8fc53252ae4"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 2,
+      "pos_start": 3000,
+      "pos_end": 3000,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": [
+            "жанр@ru",
+            "Name@en"
+          ],
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+              "жанр@ru",
+              "Name@en"
+            ],
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/d07f8d0e-e47e-460f-88c1-876cbe9e74c0"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 3,
+      "pos_start": 7001,
+      "pos_end": 7002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Майлз Брон",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Майлз Брон",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 4,
+      "pos_start": 7033,
+      "pos_end": 7034,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/019329db-d8a1-4453-bae8-fe7eb5a2ae20",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/019329db-d8a1-4453-bae8-fe7eb5a2ae20",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Хелен Брэнд",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/019329db-d8a1-4453-bae8-fe7eb5a2ae20",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Хелен Брэнд",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/019329db-d8a1-4453-bae8-fe7eb5a2ae20"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 5,
+      "pos_start": 9001,
+      "pos_end": 9002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 6,
+      "pos_start": 9025,
+      "pos_end": 9025,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 7,
+      "pos_start": 11007,
+      "pos_end": 11007,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 8,
+      "pos_start": 15002,
+      "pos_end": 15002,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Бенуа Бланк",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/ec9cd3fb-b444-4f87-9245-cf5a5c21ef42"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    },
+    {
+      "id": 9,
+      "pos_start": 15004,
+      "pos_end": 15005,
+      "node_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37",
+      "markup": 257,
+      "node": {
+        "id": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "mainNode",
+        "data": {
+          "id": null,
+          "labels": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71"
+          ],
+          "params": [
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "uri"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Майлз Брон",
+          "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37",
+          "ontology_uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71",
+          "is_toggled": false,
+          "toggled_data": [],
+          "params_values": {
+            "http://www.w3.org/2000/01/rdf-schema#label": "Майлз Брон",
+            "uri": "http://erlangen-crm.org/mainOntology/864cbf5a-05e3-44f4-9634-3a71f6c6ac71/8e14fc58-719e-4f79-af1d-da15f755fd37"
+          },
+          "file": null,
+          "connected_file": null,
+          "text_mentions": [],
+          "graph_direction": "RL"
+        },
+        "measured": {
+          "width": 80,
+          "height": 29
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "originalText": [
+    "Достать ножи: Стеклянная луковица (2022)",
+    "",
+    "Режиссёр: Райан Джонсон",
+    "Жанр: комедия-детектив",
+    "",
+    "Сюжет",
+    "",
+    "Миллиардер Майлз Брон приглашает своих ближайших друзей на частный греческий остров в своё поместье Стеклянная луковица для игры в убийство. Среди гостей: учёная Клэр, модельер Бёрди, стример Дюк, губернатор и бывшая партнёрша Майлза Хелен Брэнд.",
+    "",
+    "Детектив Бенуа Бланк также прибывает на остров, получив таинственную коробку-приглашение. Вскоре выясняется, что Хелен — сестра-близнец Кассандры, которая была убита незадолго до этого. Хелен наняла Бланка, чтобы найти убийцу сестры.",
+    "",
+    "Дюк умирает от отравленного напитка, предназначавшегося Майлзу. Бланк понимает, что Майлз сам организовал всё: он убил Кассандру, потому что она грозила разоблачить его украденные изобретения, а теперь пытается устранить и остальных свидетелей.",
+    "",
+    "Хелен находит доказательства в кабинете Майлза — украденные идеи Кассандры. Майлз поджигает поместье, чтобы уничтожить улики, но Хелен успевает спасти главное доказательство.",
+    "",
+    "В финале Бланк разоблачает Майлза Брона перед всеми гостями. Майлз арестован за убийство Кассандры и Дюка."
+  ],
+  "textWithIds": {
+    "0": "Достать",
+    "1": "ножи:",
+    "2": "Стеклянная",
+    "3": "луковица",
+    "4": "(2022)",
+    "2000": "Режиссёр:",
+    "2001": "Райан",
+    "2002": "Джонсон",
+    "3000": "Жанр:",
+    "3001": "комедия-детектив",
+    "5000": "Сюжет",
+    "7000": "Миллиардер",
+    "7001": "Майлз",
+    "7002": "Брон",
+    "7003": "приглашает",
+    "7004": "своих",
+    "7005": "ближайших",
+    "7006": "друзей",
+    "7007": "на",
+    "7008": "частный",
+    "7009": "греческий",
+    "7010": "остров",
+    "7011": "в",
+    "7012": "своё",
+    "7013": "поместье",
+    "7014": "Стеклянная",
+    "7015": "луковица",
+    "7016": "для",
+    "7017": "игры",
+    "7018": "в",
+    "7019": "убийство.",
+    "7020": "Среди",
+    "7021": "гостей:",
+    "7022": "учёная",
+    "7023": "Клэр,",
+    "7024": "модельер",
+    "7025": "Бёрди,",
+    "7026": "стример",
+    "7027": "Дюк,",
+    "7028": "губернатор",
+    "7029": "и",
+    "7030": "бывшая",
+    "7031": "партнёрша",
+    "7032": "Майлза",
+    "7033": "Хелен",
+    "7034": "Брэнд.",
+    "9000": "Детектив",
+    "9001": "Бенуа",
+    "9002": "Бланк",
+    "9003": "также",
+    "9004": "прибывает",
+    "9005": "на",
+    "9006": "остров,",
+    "9007": "получив",
+    "9008": "таинственную",
+    "9009": "коробку-приглашение.",
+    "9010": "Вскоре",
+    "9011": "выясняется,",
+    "9012": "что",
+    "9013": "Хелен",
+    "9014": "—",
+    "9015": "сестра-близнец",
+    "9016": "Кассандры,",
+    "9017": "которая",
+    "9018": "была",
+    "9019": "убита",
+    "9020": "незадолго",
+    "9021": "до",
+    "9022": "этого.",
+    "9023": "Хелен",
+    "9024": "наняла",
+    "9025": "Бланка,",
+    "9026": "чтобы",
+    "9027": "найти",
+    "9028": "убийцу",
+    "9029": "сестры.",
+    "11000": "Дюк",
+    "11001": "умирает",
+    "11002": "от",
+    "11003": "отравленного",
+    "11004": "напитка,",
+    "11005": "предназначавшегося",
+    "11006": "Майлзу.",
+    "11007": "Бланк",
+    "11008": "понимает,",
+    "11009": "что",
+    "11010": "Майлз",
+    "11011": "сам",
+    "11012": "организовал",
+    "11013": "всё:",
+    "11014": "он",
+    "11015": "убил",
+    "11016": "Кассандру,",
+    "11017": "потому",
+    "11018": "что",
+    "11019": "она",
+    "11020": "грозила",
+    "11021": "разоблачить",
+    "11022": "его",
+    "11023": "украденные",
+    "11024": "изобретения,",
+    "11025": "а",
+    "11026": "теперь",
+    "11027": "пытается",
+    "11028": "устранить",
+    "11029": "и",
+    "11030": "остальных",
+    "11031": "свидетелей.",
+    "13000": "Хелен",
+    "13001": "находит",
+    "13002": "доказательства",
+    "13003": "в",
+    "13004": "кабинете",
+    "13005": "Майлза",
+    "13006": "—",
+    "13007": "украденные",
+    "13008": "идеи",
+    "13009": "Кассандры.",
+    "13010": "Майлз",
+    "13011": "поджигает",
+    "13012": "поместье,",
+    "13013": "чтобы",
+    "13014": "уничтожить",
+    "13015": "улики,",
+    "13016": "но",
+    "13017": "Хелен",
+    "13018": "успевает",
+    "13019": "спасти",
+    "13020": "главное",
+    "13021": "доказательство.",
+    "15000": "В",
+    "15001": "финале",
+    "15002": "Бланк",
+    "15003": "разоблачает",
+    "15004": "Майлза",
+    "15005": "Брона",
+    "15006": "перед",
+    "15007": "всеми",
+    "15008": "гостями.",
+    "15009": "Майлз",
+    "15010": "арестован",
+    "15011": "за",
+    "15012": "убийство",
+    "15013": "Кассандры",
+    "15014": "и",
+    "15015": "Дюка."
+  }
+}

@@ -2,6 +2,9 @@ import sys
 import os
 import logging
 
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
+
 os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 
@@ -16,9 +19,11 @@ for h in logging.getLogger().handlers[:]:
 
 def main():
     print("start")
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     rag = OntologyRAG(
-        ontology_path=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ontology_all_films.json"),
-        model_name="qwen2.5:3b",
+        ontology_path=os.path.join(base_dir, "ontology_all_films.json"),
+        llm_api_key=os.environ.get("POLZA_AI_API_KEY"),
+        markup_dir=os.path.join(base_dir, "markup"),
     )
     rag.index()
     print("ask smth or press ctrl+c for exit\n")
